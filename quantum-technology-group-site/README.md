@@ -1,0 +1,46 @@
+# Quantum Technology Group website prototype
+
+This is a plain static website prototype for GitHub Pages.
+
+## Files
+
+- `index.html` — home page
+- `research.html` — research themes
+- `people.html` — team page
+- `person.html?id=fred` — individual person profile template
+- `publications.html` — publication list
+- `positions.html` — positions page
+- `news.html` — news page
+- `style.css` — site design
+- `script.js` — renders people, publications, research themes, and news from JSON
+- `data/people.json` — people database
+- `data/publications.json` — publication database
+- `data/research.json` — research themes
+- `data/news.json` — news items
+- `assets/img/` — placeholder images
+
+## GitHub Pages upload
+
+1. Open `https://github.com/BouchardFred/quantum-technology-group`
+2. Click **Add file → Upload files**
+3. Drag all files and folders from this package into the repository
+4. Click **Commit changes**
+5. Go to **Settings → Pages**
+6. Use **Deploy from a branch**
+7. Select `main` and `/root`
+8. The staging URL should be:
+
+`https://BouchardFred.github.io/quantum-technology-group/`
+
+## Editing without coding
+
+Most content lives in the JSON files under `data/`.
+
+For example, to add a person:
+- edit `data/people.json`
+- copy an existing object
+- change name, role, email, bio, image, aliases
+
+For publication automation later:
+- replace `data/publications.json` with data generated from a Zotero or BibTeX export
+- the publication page and person pages will update automatically
