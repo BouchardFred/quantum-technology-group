@@ -1,0 +1,62 @@
+[
+  {
+    "id": "quantum-information-processing",
+    "title": "Quantum information processing",
+    "short": "Programmable photonic circuits and ultrafast time-bin platforms for quantum information.",
+    "body": "We explore photonic platforms for manipulating quantum information at high speed. A central direction is time-bin encoding, where ultrafast optical pulses and stable interferometric networks provide a compact, reconfigurable route to quantum circuits.",
+    "keywords": [
+      "time-bin encoding",
+      "programmable circuits",
+      "quantum walks",
+      "photonic quantum computing"
+    ]
+  },
+  {
+    "id": "quantum-communications",
+    "title": "Quantum communications",
+    "short": "Single-photon communication links, robust encodings, and deployment-relevant quantum networking.",
+    "body": "Quantum communication uses photons to encode, distribute, and measure quantum states over channels such as fibre, free space, and water. The group studies both the underlying physics and practical limits of quantum communication systems.",
+    "keywords": [
+      "quantum key distribution",
+      "single photons",
+      "channels",
+      "networks"
+    ]
+  },
+  {
+    "id": "quantum-frequency-conversion",
+    "title": "Quantum frequency conversion",
+    "short": "Nonlinear optical tools for translating quantum states between wavelengths and bandwidths.",
+    "body": "Different quantum technologies operate best at different wavelengths and bandwidths. We develop fibre-based and nonlinear-optical techniques for connecting these systems while preserving quantum coherence.",
+    "keywords": [
+      "nonlinear optics",
+      "frequency translation",
+      "telecom photons",
+      "interfaces"
+    ]
+  },
+  {
+    "id": "quantum-imaging",
+    "title": "Quantum imaging",
+    "short": "Imaging and microscopy with correlated and entangled photons.",
+    "body": "We use quantum-correlated light to explore imaging, microscopy, remote sensing, and phase retrieval. These approaches can provide new measurement capabilities in noisy, turbulent, or photon-starved conditions.",
+    "keywords": [
+      "ghost imaging",
+      "quantum microscopy",
+      "correlated photons",
+      "remote sensing"
+    ]
+  },
+  {
+    "id": "quantum-memory",
+    "title": "Quantum memory",
+    "short": "Storage and control of photonic quantum states in fibre-compatible systems.",
+    "body": "Quantum memories are essential for synchronizing probabilistic photonic processes and building scalable quantum networks. The group explores fibre-cavity and frequency-control approaches for storing quantum-level optical states.",
+    "keywords": [
+      "quantum storage",
+      "fibre cavity",
+      "switching",
+      "synchronization"
+    ]
+  }
+]

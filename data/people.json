@@ -1,0 +1,244 @@
+[
+  {
+    "id": "ben",
+    "name": "Ben Sussman",
+    "role": "Research Officer",
+    "email": "Benjamin.Sussman@nrc-cnrc.gc.ca",
+    "bio": "Dr Sussman is a Research Officer at the National Research Council of Canada and an adjunct professor in the department of Physics at the University of Ottawa. His research program investigates building quantum technologies at the intersection of quantum control and quantum information. Dr Sussman studied physics as an undergraduate at the University of Waterloo before obtaining an MSc at the University of British Columbia. He graduated with a PhD in Physics from Queen's University in 2007. Dr. Sussman's research areas of interest include: quantum control, quantum communications, quantum memories, dynamic Stark control, switched wavepackets, coherent phonons, phonon lifetimes, diamond photonics, field-free molecular alignment, nonlinear interaction of ultrafast optical pulses with matter, pulse shaping, quantum encryption and random number generation, and coherent Raman processes.",
+    "image": "assets/img/placeholder-person.svg",
+    "aliases": [
+      "Ben Sussman",
+      "Benjamin Sussman",
+      "Benjamin J Sussman",
+      "Benjamin J. Sussman",
+      "B. Sussman",
+      "B. J Sussman",
+      "B. J. Sussman"
+    ]
+  },
+  {
+    "id": "phil",
+    "name": "Phil Bustard",
+    "role": "Research Officer",
+    "email": "Philip.Bustard@nrc-cnrc.gc.ca",
+    "bio": "After graduating from Oxford as a Doctor of Philosophy in Atomic and Laser Physics in 2010, Philip joined the Molecular Photonics Group as a visiting researcher before becoming a research associate of the group in 2011. His current research involves using Raman scattering for manipulating and articulating atomic and molecular systems, and controlling rotational and vibrational dynamics with lasers. He also enjoys sports like volleyball, golf, softball, and basketball.",
+    "image": "assets/img/placeholder-person.svg",
+    "aliases": [
+      "Phil Bustard",
+      "Philip Bustard",
+      "Philip J Bustard",
+      "Philip J. Bustard",
+      "P. J. Bustard",
+      "P. Bustard"
+    ]
+  },
+  {
+    "id": "duncan",
+    "name": "Duncan England",
+    "role": "Research Officer",
+    "email": "Duncan.England@nrc-cnrc.gc.ca",
+    "bio": "Duncan England obtained a BSc. and MSc. in Physics and Astronomy from the University of Durham in 2006, and a D.Phil in Atomic and Laser Physics from the University of Oxford in 2011. After focussing on Ultracold Atoms and Molecules for his graduate and undergraduate research, an interest in Quantum Optics was sparked during a postdoc in Oxford. In 2012, he arrived at the National Research Council for a 2-year postdoc and liked it so much that he never left. During his decade at NRC, Duncan's research interest has spanned across a range of topics including quantum random number generation, all-optical switching, quantum imaging, and quantum memories. An over-arching theme in his research across this time has been the idea that intense ultrafast pulses of light can be used to generate and manipulate the faintest pulses possible – single photons. He can think of few, if any, places in the world better to pursue this research than Ottawa which is home to world-leading scientists and laboratories in both ultrafast laser science and quantum optics.",
+    "image": "assets/img/placeholder-person.svg",
+    "aliases": [
+      "Duncan England",
+      "Duncan G England",
+      "Duncan G. England",
+      "D. England",
+      "D. G. England"
+    ]
+  },
+  {
+    "id": "fred",
+    "name": "Frédéric Bouchard",
+    "role": "Research Officer",
+    "email": "frederic.bouchard@nrc-cnrc.gc.ca",
+    "bio": "Frédéric Bouchard is a Research Officer at the National Research Council Canada. He completed his PhD in quantum optics at the University of Ottawa, with a focus on quantum cryptography and high-dimensional quantum information. He joined the Security and Disruptive Technologies Research Centre of the National Research Council in 2019 as a Research Associate working on photonic quantum information processing and became a Research Officer in 2022.",
+    "image": "assets/img/placeholder-person.svg",
+    "aliases": [
+      "Frédéric Bouchard",
+      "Frederic Bouchard",
+      "F. Bouchard"
+    ]
+  },
+  {
+    "id": "yingwen",
+    "name": "Yingwen Zhang",
+    "role": "Postdoctoral fellow",
+    "email": "yingwen.ivan.zhang@gmail.com",
+    "bio": "Yingwen Zhang is a Research Associate at National Research Council Canada.",
+    "image": "assets/img/placeholder-person.svg",
+    "aliases": [
+      "Yingwen Zhang",
+      "Y. Zhang"
+    ]
+  },
+  {
+    "id": "guillaume",
+    "name": "Guillaume Thekkadath",
+    "role": "Research Officer",
+    "email": "Guillaume.Thekkadath@nrc-cnrc.gc.ca",
+    "bio": "Guillaume Thekkadath joined the group as a postdoctoral fellow in September 2021 and became a Research Officer in 2024. He completed his PhD at the University of Oxford in 2020. His expertise is in photon pair sources and photon-number-resolving detectors. In his spare time, he enjoys rock climbing and slapping his bass.",
+    "image": "assets/img/placeholder-person.svg",
+    "aliases": [
+      "Guillaume Thekkadath",
+      "Guillaume S Thekkadath",
+      "Guillaume S. Thekkadath",
+      "G. Thekkadath",
+      "G. S. Thekkadath"
+    ]
+  },
+  {
+    "id": "kent",
+    "name": "Kent Bonsma-Fisher",
+    "role": "Research Associate",
+    "email": "kent.bonsma-fisher@nrc-cnrc.gc.ca",
+    "bio": "Kent Bonsma-Fisher, a postdoctoral fellow currently working with the National Research Council of Canada's (NRC) Ultrafast Quantum Photonics group, was fortunate to complete his PhD studies while working with the Security and Disruptive Technologies Research Centre. He received his master's and doctoral degrees in physics at the University of Waterloo Institute for Quantum Computing, where his quantum photonics research earned him the Governor General's Gold Medal and the Vanier Canada Graduate Scholarship. Kent initially collaborated with the NRC to demonstrate how to store and retrieve photons, and to manipulate their colour using a diamond memory. In his current role as a postdoctoral fellow, Kent's focus is the generation and manipulation of single photons with a broad range of wavelengths. His work is at the heart of optical quantum technologies, which are revolutionizing computation, sensing and communication.",
+    "image": "assets/img/placeholder-person.svg",
+    "aliases": [
+      "Kent Bonsma-Fisher",
+      "K. Bonsma-Fisher",
+      "K. A. G. Bonsma-Fisher",
+      "Kent A. G. Bonsma-Fisher"
+    ]
+  },
+  {
+    "id": "andrew",
+    "name": "Andrew Proppe",
+    "role": "Postdoctoral fellow",
+    "email": "aproppe@mit.edu",
+    "bio": "Born and raised in in Montréal, Québec, Andrew Proppe received his B.Sc. in Chemistry from Concordia University in 2014. He began his doctoral studies in the Department of Chemistry at Princeton University in the lab of Gregory Scholes, researching the photophysics of light harvesting in photosynthetic systems using ultrafast spectroscopy. In 2016, he transferred his studies to the University of Toronto under the supervision of Shana Kelley and Ted Sargent, obtaining his PhD in Chemistry in 2019. Andrew’s doctoral research studied the synthesis, photophysics, and applications of low-dimensional nanomaterials in optoelectronic devices such as LEDs and photovoltaics. He has published several papers studying the mechanisms of energy transfer and charge transfer in quantum dot solids and low-dimensional perovskites, and the influence of ligands on perovskite solar cell performance and photophysics. Between 2016 and 2019, Andrew was a member of the Bioinspired Solar Energy team, a CIFAR program designed to learn from photosynthetic organisms in order to devise new approaches to harvest, transport, and use solar energy. Andrew is currently an NSERC postdoctoral fellow in the Department of Chemistry at the Massachusetts Institute of Technology, studying single photon emitters for applications in quantum technologies.",
+    "image": "assets/img/placeholder-person.svg",
+    "aliases": [
+      "Andrew Proppe",
+      "Andrew H Proppe",
+      "Andrew H. Proppe",
+      "A. H. Proppe"
+    ]
+  },
+  {
+    "id": "kate",
+    "name": "Kate Fenwick",
+    "role": "PhD student",
+    "email": "kfenw032@uottawa.ca",
+    "bio": "Kate is a passionate student working towards a PhD in the Quantum Technology group. She completed her BSc (Honours) in Physics at Queen's University in 2017, where she also earned a Business Certificate. Kate then went on to complete her Master's degree (in Physics) at Queen's University, investigating the ultrafast optical properties of quantum materials in James Fraser's group. During her Master's, Kate had the opportunity to complete an 8-month co-op with the Quantum Technology group at NRC. Inspired by the group's work, she decided to stay on and pursue a PhD with them. Her research revolves around developing and implementing an ultrafast optical shutter that can manipulate, gate, and re-route optical signals on ultrafast timescales. She has used this device for various applications, including carving pulses from a continuous wave laser, single photon metrology, time-stretch spectroscopy, and most recently to detect the output from a quantum walk with ultrafast time-bin encoding. Outside of her studies, Kate enjoys volunteering. She runs science activities with classrooms in Ottawa through her volunteer work with Let's Talk Science, and serves as the president of the uOttawa Optica-SPIE Student Chapter. Previously, she was the Regional Executive Officer of Robogals North America, a non-profit organization that aims to engage young girls in STEM pursuits. Over the past three years, she has also organized the Canadian Photonics Online Meetup (canPOM) each fall. Besides her work and volunteering activities, Kate enjoys outdoor activities such as cross-country skiing in Gatineau Park, rock climbing, and trying out new recipes in the kitchen.",
+    "image": "assets/img/placeholder-person.svg",
+    "aliases": [
+      "Kate Fenwick",
+      "Kate L Fenwick",
+      "Kate L. Fenwick",
+      "K. Fenwick",
+      "K. L. Fenwick"
+    ]
+  },
+  {
+    "id": "brayden",
+    "name": "Brayden Freitas",
+    "role": "PhD student",
+    "email": "bfrei097@uottawa.ca",
+    "bio": "Brayden Freitas...",
+    "image": "assets/img/placeholder-person.svg",
+    "aliases": [
+      "Brayden Freitas",
+      "Brayden A Freitas",
+      "Brayden A. Freitas",
+      "B. Freitas",
+      "B. A. Freitas"
+    ]
+  },
+  {
+    "id": "ramy",
+    "name": "Ramy Tannous",
+    "role": "Postdoctoral fellow",
+    "email": "ramy.tannous@nrc-cnrc.gc.ca",
+    "bio": "Ramy joined the NRC in the spring of 2023 as a Research Associate and is very passionate about research and discovery. He completed his BSc (Honours) in Physics, with a specialty in nuclear physics, from the University of Saskatchewan in 2016. He then completed a MSc (2018) and PhD (2023) in Physics with a specialty in quantum information at the Institute for Quantum Computing (IQC) of the University of Waterloo. There, his research focused on developing quantum communication hardware and protocols, specifically for free-space links. He was also a technical lead on the development of the quantum sources and optical ground station for the Quantum Encryption and Science satellite mission. Generally, his research expertise is in quantum optics, quantum networks, and photon detection. He also has experience in additive manufacturing, telescope systems, and flexure design for opto-mechanical systems. Ramy has many interests beyond the lab, including ultimate, cycling, hiking, cooking, and a good Sci-fi series. He also enjoys science outreach and was a significant contributor to the IQC outreach efforts, where he conducted many class visits, public lectures, and science demonstrations.",
+    "image": "assets/img/placeholder-person.svg",
+    "aliases": [
+      "Ramy Tannous",
+      "R. Tannous"
+    ]
+  },
+  {
+    "id": "alicia",
+    "name": "Alicia Sit",
+    "role": "Postdoctoral fellow",
+    "email": "Alicia.Sit@nrc-cnrc.gc.ca",
+    "bio": "Alicia Sit joined as a Research Associate at NRC in September 2023. She received her BSc (Honours) with a specialization in Physics-Mathematics in 2017, followed by her MSc (2019) and PhD (2023), all from the University of Ottawa. During her studies, her research focused on demonstrating high-dimensional quantum cryptographic protocols with structured light through various quantum channels - including fiber, free-space, and underwater - both inside and outside the laboratory environment. Beyond research, Alicia enjoys all things artsy and crafty, such as painting and sewing. She also loves to garden and dabble in baking.",
+    "image": "assets/img/placeholder-person.svg",
+    "aliases": [
+      "Alicia Sit",
+      "A. Sit"
+    ]
+  },
+  {
+    "id": "nic",
+    "name": "Nicolas Couture",
+    "role": "Postdoctoral fellow",
+    "email": "ncout007@uottawa.ca",
+    "bio": "Nick joined NRC as a research associate in the fall of 2023. He attended the University of Ottawa where he earned his Honours BSc (co-op) in 2018 and his PhD in 2023, both in physics. In this time, his research mainly focused on the development of fiber-based solutions to address shortcomings in time-resolved terahertz spectroscopy systems. This included expanding the THz bandwidth, lowering the overall cost of the system, and increasing the acquisition speed. In his spare time, Nick likes to play hockey and golf and is a member of far too many fantasy sports leagues.",
+    "image": "assets/img/placeholder-person.svg",
+    "aliases": [
+      "Nicolas Couture",
+      "N. Couture"
+    ]
+  },
+  {
+    "id": "noah",
+    "name": "Noah Lupu-Gladstein",
+    "role": "Postdoctoral fellow",
+    "email": "nlupugla@physics.utoronto.ca",
+    "bio": "Noah joined NRC through the University of Ottawa in Winter 2024. He graduated from Macalester College in 2016 with an honors in physics, a major in math, and a minor in classics. He (has almost!!) earned his PhD in physics from the University of Toronto, where he studied quantum optics under Professor Aephraim Steinberg. Noah is interested in using table top experiments to shed light (pun intended) on the deepest mysteries in quantum mechanics. His has focused on measurement disturbance: both understanding it foundationally and exploiting it for advantages in quantum metrology. Outside of the lab, Noah can be found swing dancing, round-house kicking a sparring partner, dungeon mastering, making video games, and contributing to open source projects.",
+    "image": "assets/img/placeholder-person.svg",
+    "aliases": [
+      "Noah Lupu-Gladstein",
+      "N. Lupu-Gladstein"
+    ]
+  },
+  {
+    "id": "nathan",
+    "name": "Nathan Roberts",
+    "role": "Postdoctoral fellow",
+    "email": "nroberts@uottawa.ca",
+    "bio": "Nathan joined the group as a postdoctoral fellow in the summer of 2024. He completed both his MPhys and PhD at the University of Bath, where his research focused on combining topological photonics and fiber optics. Specifically, he focused on designing, simulating, and fabricating specialty optical fibers with enhanced robustness to fabrication-induced disorder. Over time, Nathan’s research interests have evolved from protecting delicate states of light in fiber, to reliably and robustly generating them.",
+    "image": "assets/img/placeholder-person.svg",
+    "aliases": [
+      "Nathan Roberts",
+      "N. Roberts"
+    ]
+  },
+  {
+    "id": "nicolas",
+    "name": "Nicolas Dalbec-Constant",
+    "role": "PhD student",
+    "email": "nicolas.dalbec-constant@polymtl.ca",
+    "bio": "Nicolas Dalbec-Constant is a PhD student at the University of Ottawa and part of the Quantum Technology group. He earned his B.Eng. in Engineering Physics from Polytechnique Montréal where he also completed a Master's degree under the supervision of Nicolás Quesada. His research focused on machine learning techniques for the unsupervised classification of signals generated by Transition Edge Sensor (TES), state-of-the-art detectors with photon number resolution capabilities. His work in collaboration with the National Research Council (NRC) and the National Institute of Standards and Technology (NIST) explored nonlinear signal processing and dimensionality reduction methods for quantum optics applications. During his Master's, Nicolas further collaborated with NRC, applying neural network-based techniques for the classification of light sources using TESs. This experience led to his PhD research, which combines photon-number-resolving detectors (PNRDs) in the context of fluorescence microscopy. His goal is to develop a numerical framework to enable quantitative and super-resolution microscopy exploiting photon number measurements. Beyond his research, Nicolas is committed to scientific outreach and open-source development. He has contributed to academic courses as a teaching assistant and created publicly available research tools. He also has a strong background in sports, having competed in high-level volleyball before transitioning to academic research. In his free time, he enjoys volleyball, cycling, and outdoor activities of all kinds.",
+    "image": "assets/img/placeholder-person.svg",
+    "aliases": [
+      "Nicolas Dalbec-Constant",
+      "N. Dalbec-Constant"
+    ]
+  },
+  {
+    "id": "colin",
+    "name": "Colin Veevers",
+    "role": "PhD student",
+    "email": "cveevers@uottawa.ca",
+    "bio": "Colin began his studies at the University of Toronto, where he received a BSc physics in 2022. After two years spent working in the photonics industry, he joined the group as an MSc student under the joint supervision of Prof. Jeff Lundeen at the University of Ottawa and Dr. Ben Sussman. His current research focus is on developing spectroscopic techniques that leverage correlations in nonclassical light to beat classically achievable performance. Outside of the lab, Colin enjoys cooking and spending time outdoors, and is involved in the Canadian competitive trivia scene.",
+    "image": "assets/img/placeholder-person.svg",
+    "aliases": [
+      "Colin Veevers",
+      "C. Veevers"
+    ]
+  },
+  {
+    "id": "jonathan",
+    "name": "Jonathan Baker",
+    "role": "Undergraduate student",
+    "email": "jbake093@uottawa.ca",
+    "bio": "Jonathan joined the group in the summer of 2023 as a summer undergraduate researcher. He’s currently pursuing a dual degree in physics (Honours) and electrical engineering at the University of Ottawa. During his undergraduate studies, he developed a strong interest in quantum mechanics and photonics. As part of the group, Jonathan explored quantum walks through simulations and data analysis and conducted research for his honours project on the limits of quantum phase uncertainties using photon-number resolving detectors. In September 2025, he will continue his studies with the group as he pursues a master's degree in physics at the University of Ottawa. In his free time, Jonathan enjoys cooking, spending time in nature, gardening, and helping his parents on their hobby farm.",
+    "image": "assets/img/placeholder-person.svg",
+    "aliases": [
+      "Jonathan Baker",
+      "J. Baker"
+    ]
+  }
+]
