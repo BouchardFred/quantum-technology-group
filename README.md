@@ -120,3 +120,12 @@ This version includes a first scaffold for publication automation:
 - `.github/workflows/fetch-publications.yml`
 
 Recommended next step: find OpenAlex author IDs for Ben, Duncan, Phil, Frédéric, and Guillaume, copy the template to `data/publication-sources.json`, fill those IDs, and run the workflow manually. The script writes to `data/publications.generated.json` first so we can review it before replacing the live publication list.
+
+
+## v10 updates
+
+- Added Noah Lupu-Gladstein's uploaded photo.
+- Re-copied the lab images using the explicit uploaded filenames so the homepage lab image should appear correctly.
+- Added Frédéric Bouchard's ORCID to `data/publication-sources.json`.
+- Updated the publication fetch script so it can use ORCID to find the OpenAlex author profile, then update `data/publications.json`.
+- The GitHub Action `Fetch publications` can now be run manually from the Actions tab.

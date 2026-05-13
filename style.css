@@ -1695,3 +1695,25 @@ body[data-page="person"] .person-meta a {
     height: 230px;
   }
 }
+
+
+/* v10: publication automation + image fixes */
+.lab-gallery-grid {
+  grid-auto-rows: 260px;
+}
+
+.lab-shot.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 42%;
+}
+
+.lab-shot img {
+  background: #05070a;
+}
+
+/* If a lab image is slow to load, keep the box visually intentional */
+.lab-shot {
+  min-height: 220px;
+}
