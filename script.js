@@ -47,7 +47,6 @@ function renderResearchList(themes) {
     <a class="research-item research-card with-side-image" href="research-area.html?id=${encodeURIComponent(t.id)}">
       <img class="research-thumb" src="${t.image}" alt="${t.title}">
       <div>
-        <p class="eyebrow">${t.id.replaceAll("-", " ")}</p>
         <h2>${t.title}</h2>
         <p>${t.body}</p>
         <div class="tag-row">${t.keywords.map(k => `<span class="tag">${k}</span>`).join("")}</div>

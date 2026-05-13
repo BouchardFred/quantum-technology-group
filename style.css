@@ -1610,3 +1610,88 @@ body[data-page="person"] .person-meta a {
     min-height: 260px;
   }
 }
+
+
+/* v9 refinements */
+.lab-gallery-grid {
+  grid-template-columns: 1.05fr .95fr .95fr;
+  grid-auto-rows: 245px;
+}
+
+.lab-shot.hero img,
+.lab-shot.wide img,
+.lab-shot img {
+  object-fit: cover;
+  object-position: center center;
+}
+
+.lab-shot.hero img {
+  object-position: 50% 45%;
+}
+
+/* Keep faces visible in the people-page lab strip */
+.lab-strip-item img {
+  height: 270px;
+  object-fit: cover;
+  object-position: center 30%;
+}
+
+/* Research page spacing and image handling */
+.research-item.with-side-image {
+  grid-template-columns: 340px 1fr !important;
+  gap: 0;
+}
+
+.research-item.with-side-image > div {
+  padding: 28px 30px 30px;
+}
+
+.research-thumb {
+  object-fit: contain;
+  object-position: center center;
+  background:
+    radial-gradient(circle at 25% 20%, rgba(56,209,188,.08), transparent 38%),
+    #07090d;
+  padding: 0;
+  min-height: 260px;
+}
+
+.research-item h2 {
+  margin-top: 0;
+}
+
+.research-item p {
+  margin-right: 6px;
+}
+
+/* Slightly more breathing room in research-area pages */
+.research-area-image {
+  object-fit: contain;
+  background: #07090d;
+}
+
+/* Hide old homepage group strip if cached markup exists */
+.home-group-life-strip {
+  display: none !important;
+}
+
+@media (max-width: 980px) {
+  .research-item.with-side-image {
+    grid-template-columns: 1fr !important;
+  }
+  .research-thumb {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    max-height: 340px;
+  }
+  .lab-gallery-grid {
+    grid-auto-rows: 230px;
+  }
+}
+
+@media (max-width: 720px) {
+  .lab-strip-item img {
+    height: 230px;
+  }
+}

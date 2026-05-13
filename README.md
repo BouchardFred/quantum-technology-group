@@ -100,3 +100,23 @@ Images are stored in `assets/img/group/`.
 
 Added a new "In the lab" section to the homepage, a subtle lab strip on the People page, and a richer Positions hero with a photon motif.
 New images are stored in `assets/img/lab/`.
+
+
+## v9 refinements
+
+- Fixed Ramy Tannous photo assignment.
+- Updated homepage lab-section title and description.
+- Removed the group-life strip from the homepage.
+- Adjusted Research page cards so text has more padding and the small duplicate yellow label is removed.
+- Adjusted research images to avoid clipping.
+- Renamed "Life in the lab" to "Inside the lab" and adjusted image positioning.
+
+## Publication automation scaffold
+
+This version includes a first scaffold for publication automation:
+
+- `data/publication-sources.template.json`
+- `scripts/fetch_publications.py`
+- `.github/workflows/fetch-publications.yml`
+
+Recommended next step: find OpenAlex author IDs for Ben, Duncan, Phil, Frédéric, and Guillaume, copy the template to `data/publication-sources.json`, fill those IDs, and run the workflow manually. The script writes to `data/publications.generated.json` first so we can review it before replacing the live publication list.
