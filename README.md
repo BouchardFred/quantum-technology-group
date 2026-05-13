@@ -168,3 +168,8 @@ This means Frédéric's profile page should again show the older, more complete 
 - Renamed the site to Ultrafast Quantum Photonics Group.
 - Changed the brand mark from QT to UQP.
 - Reduced the size/visual dominance of the large purple image in the homepage lab section.
+
+
+## v16 update
+
+- Increased the height of the bottom-right orange image on the homepage lab section and shifted the crop upward so faces/heads are less clipped.
