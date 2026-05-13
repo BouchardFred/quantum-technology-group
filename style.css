@@ -1023,3 +1023,78 @@ input::placeholder {
     grid-template-columns: 1fr !important;
   }
 }
+
+
+/* v4 people page refinements */
+.people-grid {
+  display: grid;
+  gap: 20px;
+  align-items: stretch;
+}
+
+.person-card-compact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  min-height: 100%;
+  border-radius: 22px;
+  overflow: hidden;
+}
+
+.person-card-compact img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  border-radius: 0;
+  margin-bottom: 0;
+  background: rgba(255,255,255,.04);
+}
+
+.person-card-compact > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px 16px 18px;
+  min-height: 118px;
+  flex: 1 1 auto;
+}
+
+.person-card-compact h3 {
+  min-height: 2.7em;
+  display: block;
+  margin: 0 0 8px;
+  line-height: 1.25;
+}
+
+.person-card-compact p {
+  margin: 0;
+  min-height: 2.6em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+}
+
+.people-section + .people-section {
+  margin-top: 34px;
+}
+
+.people-section .people-grid.fixed-5,
+.people-section .people-grid.fixed-4,
+.people-section .people-grid.fixed-3 {
+  align-items: stretch;
+}
+
+@media (min-width: 851px) {
+  .people-grid.fixed-5 > * { height: 100%; }
+  .people-grid.fixed-4 > * { height: 100%; }
+  .people-grid.fixed-3 > * { height: 100%; }
+}
+
+/* Slightly calmer people page hero/body spacing */
+body[data-page="people"] .page-hero {
+  padding-bottom: 28px;
+}

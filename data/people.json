@@ -6,7 +6,7 @@
     "category": "Staff Scientists",
     "email": "benjamin.sussman@nrc-cnrc.gc.ca",
     "bio": "Dr Sussman is a Research Officer at the National Research Council of Canada and an adjunct professor in the department of Physics at the University of Ottawa. His research program investigates building quantum technologies at the intersection of quantum control and quantum information. Dr Sussman studied physics as an undergraduate at the University of Waterloo before obtaining an MSc at the University of British Columbia. He graduated with a PhD in Physics from Queen's University in 2007. Dr. Sussman's research areas of interest include: quantum control, quantum communications, quantum memories, dynamic Stark control, switched wavepackets, coherent phonons, phonon lifetimes, diamond photonics, field-free molecular alignment, nonlinear interaction of ultrafast optical pulses with matter, pulse shaping, quantum encryption and random number generation, and coherent Raman processes.",
-    "image": "assets/img/einstein-placeholder.svg",
+    "image": "assets/img/people/ben-sussman.jpg",
     "aliases": [
       "Ben Sussman",
       "Benjamin Sussman",
@@ -24,7 +24,7 @@
     "category": "Staff Scientists",
     "email": "duncan.england@nrc-cnrc.gc.ca",
     "bio": "Duncan England obtained a BSc. and MSc. in Physics and Astronomy from the University of Durham in 2006, and a D.Phil in Atomic and Laser Physics from the University of Oxford in 2011. After focussing on Ultracold Atoms and Molecules for his graduate and undergraduate research, an interest in Quantum Optics was sparked during a postdoc in Oxford. In 2012, he arrived at the National Research Council for a 2-year postdoc and liked it so much that he never left. During his decade at NRC, Duncan's research interest has spanned across a range of topics including quantum random number generation, all-optical switching, quantum imaging, and quantum memories. An over-arching theme in his research across this time has been the idea that intense ultrafast pulses of light can be used to generate and manipulate the faintest pulses possible – single photons. He can think of few, if any, places in the world better to pursue this research than Ottawa which is home to world-leading scientists and laboratories in both ultrafast laser science and quantum optics.",
-    "image": "assets/img/einstein-placeholder.svg",
+    "image": "assets/img/people/duncan-england.jpg",
     "aliases": [
       "Duncan England",
       "Duncan G England",
@@ -40,7 +40,7 @@
     "category": "Staff Scientists",
     "email": "philip.bustard@nrc-cnrc.gc.ca",
     "bio": "After graduating from Oxford as a Doctor of Philosophy in Atomic and Laser Physics in 2010, Philip joined the Molecular Photonics Group as a visiting researcher before becoming a research associate of the group in 2011. His current research involves using Raman scattering for manipulating and articulating atomic and molecular systems, and controlling rotational and vibrational dynamics with lasers. He also enjoys sports like volleyball, golf, softball, and basketball.",
-    "image": "assets/img/einstein-placeholder.svg",
+    "image": "assets/img/people/phil-bustard.jpg",
     "aliases": [
       "Phil Bustard",
       "Philip Bustard",
@@ -57,7 +57,7 @@
     "category": "Staff Scientists",
     "email": "frederic.bouchard@nrc-cnrc.gc.ca",
     "bio": "Frédéric Bouchard is a Research Officer at the National Research Council Canada. He completed his PhD in quantum optics at the University of Ottawa, with a focus on quantum cryptography and high-dimensional quantum information. He joined the Security and Disruptive Technologies Research Centre of the National Research Council in 2019 as a Research Associate working on photonic quantum information processing and became a Research Officer in 2022.",
-    "image": "assets/img/einstein-placeholder.svg",
+    "image": "assets/img/people/frederic-bouchard.jpg",
     "aliases": [
       "Frédéric Bouchard",
       "Frederic Bouchard",
@@ -71,7 +71,7 @@
     "category": "Staff Scientists",
     "email": "guillaume.thekkadath@nrc-cnrc.gc.ca",
     "bio": "Guillaume Thekkadath joined the group as a postdoctoral fellow in September 2021 and became a Research Officer in 2024. He completed his PhD at the University of Oxford in 2020. His expertise is in photon pair sources and photon-number-resolving detectors. In his spare time, he enjoys rock climbing and slapping his bass.",
-    "image": "assets/img/einstein-placeholder.svg",
+    "image": "assets/img/people/guillaume-thekkadath.jpg",
     "aliases": [
       "Guillaume Thekkadath",
       "Guillaume S Thekkadath",
@@ -87,7 +87,7 @@
     "category": "Postdocs",
     "email": "yingwen.ivan.zhang@gmail.com",
     "bio": "Yingwen Zhang is a Research Associate at National Research Council Canada.",
-    "image": "assets/img/einstein-placeholder.svg",
+    "image": "assets/img/people/yingwen-zhang.jpg",
     "aliases": [
       "Yingwen Zhang",
       "Y. Zhang"
@@ -100,7 +100,7 @@
     "category": "Postdocs",
     "email": "ramy.tannous@nrc-cnrc.gc.ca",
     "bio": "Ramy joined the NRC in the spring of 2023 as a Research Associate and is very passionate about research and discovery. He completed his BSc (Honours) in Physics, with a specialty in nuclear physics, from the University of Saskatchewan in 2016. He then completed a MSc (2018) and PhD (2023) in Physics with a specialty in quantum information at the Institute for Quantum Computing (IQC) of the University of Waterloo. There, his research focused on developing quantum communication hardware and protocols, specifically for free-space links. He was also a technical lead on the development of the quantum sources and optical ground station for the Quantum Encryption and Science satellite mission. Generally, his research expertise is in quantum optics, quantum networks, and photon detection. He also has experience in additive manufacturing, telescope systems, and flexure design for opto-mechanical systems. Ramy has many interests beyond the lab, including ultimate, cycling, hiking, cooking, and a good Sci-fi series. He also enjoys science outreach and was a significant contributor to the IQC outreach efforts, where he conducted many class visits, public lectures, and science demonstrations.",
-    "image": "assets/img/einstein-placeholder.svg",
+    "image": "assets/img/people/ramy-tannous.jpg",
     "aliases": [
       "Ramy Tannous",
       "R. Tannous"
@@ -113,7 +113,7 @@
     "category": "Postdocs",
     "email": "kfenw032@uottawa.ca",
     "bio": "Kate is a passionate student working towards a PhD in the Quantum Technology group. She completed her BSc (Honours) in Physics at Queen's University in 2017, where she also earned a Business Certificate. Kate then went on to complete her Master's degree (in Physics) at Queen's University, investigating the ultrafast optical properties of quantum materials in James Fraser's group. During her Master's, Kate had the opportunity to complete an 8-month co-op with the Quantum Technology group at NRC. Inspired by the group's work, she decided to stay on and pursue a PhD with them. Her research revolves around developing and implementing an ultrafast optical shutter that can manipulate, gate, and re-route optical signals on ultrafast timescales. She has used this device for various applications, including carving pulses from a continuous wave laser, single photon metrology, time-stretch spectroscopy, and most recently to detect the output from a quantum walk with ultrafast time-bin encoding. Outside of her studies, Kate enjoys volunteering. She runs science activities with classrooms in Ottawa through her volunteer work with Let's Talk Science, and serves as the president of the uOttawa Optica-SPIE Student Chapter. Previously, she was the Regional Executive Officer of Robogals North America, a non-profit organization that aims to engage young girls in STEM pursuits. Over the past three years, she has also organized the Canadian Photonics Online Meetup (canPOM) each fall. Besides her work and volunteering activities, Kate enjoys outdoor activities such as cross-country skiing in Gatineau Park, rock climbing, and trying out new recipes in the kitchen.",
-    "image": "assets/img/einstein-placeholder.svg",
+    "image": "assets/img/people/kate-fenwick.jpg",
     "aliases": [
       "Kate Fenwick",
       "Kate L Fenwick",
@@ -129,7 +129,7 @@
     "category": "Postdocs",
     "email": "Alicia.Sit@nrc-cnrc.gc.ca",
     "bio": "Alicia Sit joined as a Research Associate at NRC in September 2023. She received her BSc (Honours) with a specialization in Physics-Mathematics in 2017, followed by her MSc (2019) and PhD (2023), all from the University of Ottawa. During her studies, her research focused on demonstrating high-dimensional quantum cryptographic protocols with structured light through various quantum channels - including fiber, free-space, and underwater - both inside and outside the laboratory environment. Beyond research, Alicia enjoys all things artsy and crafty, such as painting and sewing. She also loves to garden and dabble in baking.",
-    "image": "assets/img/einstein-placeholder.svg",
+    "image": "assets/img/people/alicia-sit.jpg",
     "aliases": [
       "Alicia Sit",
       "A. Sit"
@@ -142,7 +142,7 @@
     "category": "Postdocs",
     "email": "nlupugla@physics.utoronto.ca",
     "bio": "Noah joined NRC through the University of Ottawa in Winter 2024. He graduated from Macalester College in 2016 with an honors in physics, a major in math, and a minor in classics. He (has almost!!) earned his PhD in physics from the University of Toronto, where he studied quantum optics under Professor Aephraim Steinberg. Noah is interested in using table top experiments to shed light (pun intended) on the deepest mysteries in quantum mechanics. His has focused on measurement disturbance: both understanding it foundationally and exploiting it for advantages in quantum metrology. Outside of the lab, Noah can be found swing dancing, round-house kicking a sparring partner, dungeon mastering, making video games, and contributing to open source projects.",
-    "image": "assets/img/einstein-placeholder.svg",
+    "image": "assets/img/people/noah-lupu-gladstein.jpg",
     "aliases": [
       "Noah Lupu-Gladstein",
       "N. Lupu-Gladstein"
@@ -155,7 +155,7 @@
     "category": "Postdocs",
     "email": "nroberts@uottawa.ca",
     "bio": "Nathan joined the group as a postdoctoral fellow in the summer of 2024. He completed both his MPhys and PhD at the University of Bath, where his research focused on combining topological photonics and fiber optics. Specifically, he focused on designing, simulating, and fabricating specialty optical fibers with enhanced robustness to fabrication-induced disorder. Over time, Nathan’s research interests have evolved from protecting delicate states of light in fiber, to reliably and robustly generating them.",
-    "image": "assets/img/einstein-placeholder.svg",
+    "image": "assets/img/people/nathan-roberts.jpg",
     "aliases": [
       "Nathan Roberts",
       "N. Roberts"
@@ -168,7 +168,7 @@
     "category": "Postdocs",
     "email": "",
     "bio": "Bio coming soon.",
-    "image": "assets/img/einstein-placeholder.svg",
+    "image": "assets/img/people/kyle-jordan.jpg",
     "aliases": [
       "Kyle Jordan",
       "K. Jordan"
@@ -181,7 +181,7 @@
     "category": "Postdocs",
     "email": "",
     "bio": "Bio coming soon.",
-    "image": "assets/img/einstein-placeholder.svg",
+    "image": "assets/img/people/pierre-luc-theriault.jpg",
     "aliases": [
       "Pierre-Luc Thériault",
       "Pierre-Luc Theriault",

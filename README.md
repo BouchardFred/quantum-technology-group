@@ -63,3 +63,9 @@ To start automated publication updates, please provide at least one stable autho
 - Semantic Scholar author ID
 
 Fill `data/publication-sources.template.json` and rename it to `data/publication-sources.json`. Once those IDs are available, a GitHub Action can fetch updated publications and rebuild `data/publications.json`.
+
+
+## People photos in v4
+
+This version uses the newly uploaded headshots and keeps card sizes consistent on the People page.
+If any headshots need to be swapped to a different person, send the corrections and they can be updated quickly in one pass.
