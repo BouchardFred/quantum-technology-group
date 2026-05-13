@@ -94,3 +94,9 @@ If any headshots need to be swapped to a different person, send the corrections 
 
 Added a subtle "Outside the lab" mosaic to the People page, plus a small homepage strip linking to it.
 Images are stored in `assets/img/group/`.
+
+
+## v8: additional lab imagery
+
+Added a new "In the lab" section to the homepage, a subtle lab strip on the People page, and a richer Positions hero with a photon motif.
+New images are stored in `assets/img/lab/`.
