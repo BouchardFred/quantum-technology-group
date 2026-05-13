@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+    <defs>
+      <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+        <stop offset="0%" stop-color="#0a0d14"/>
+        <stop offset="100%" stop-color="#060709"/>
+      </linearGradient>
+      <radialGradient id="r1" cx="15%" cy="18%" r="50%">
+        <stop offset="0%" stop-color="#38d1bc" stop-opacity="0.18"/>
+        <stop offset="100%" stop-color="#38d1bc" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="r2" cx="90%" cy="12%" r="45%">
+        <stop offset="0%" stop-color="#e8c16c" stop-opacity="0.12"/>
+        <stop offset="100%" stop-color="#e8c16c" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <rect width="1200" height="700" fill="url(#g)"/>
+    <rect width="1200" height="700" fill="url(#r1)"/>
+    <rect width="1200" height="700" fill="url(#r2)"/>
+    <rect x="180" y="160" width="50" height="300" rx="12" fill="#38d1bc" opacity="0.18"/><rect x="340" y="240" width="50" height="220" rx="12" fill="#38d1bc" opacity="0.18"/><rect x="500" y="320" width="50" height="140" rx="12" fill="#38d1bc" opacity="0.18"/><rect x="660" y="160" width="50" height="300" rx="12" fill="#38d1bc" opacity="0.18"/><rect x="820" y="240" width="50" height="220" rx="12" fill="#38d1bc" opacity="0.18"/><rect x="980" y="320" width="50" height="140" rx="12" fill="#38d1bc" opacity="0.18"/><polyline points="160,390 320,330 480,360 640,250 800,290 960,180 1080,210" fill="none" stroke="#e8c16c" stroke-width="4" opacity="0.75"/>
+    <text x="75" y="585" fill="#fffaf0" font-family="Inter,Arial,sans-serif" font-size="56" font-weight="650" text-anchor="start">Quantum Sensing</text>
+    <rect x="76" y="610" width="220" height="3" fill="#e8c16c" opacity="0.75"/>
+    </svg>

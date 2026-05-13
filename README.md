@@ -53,3 +53,13 @@ This version still renders publications from `data/publications.json`. A later s
 ## People photos
 
 Replace `assets/img/placeholder-person.svg` by adding headshots to `assets/img/people/` and updating the `image` field for each person in `data/people.json`.
+
+
+## Publication automation: what I need next
+
+To start automated publication updates, please provide at least one stable author identifier for each permanent staff scientist:
+- ORCID iD (preferred)
+- OpenAlex author ID
+- Semantic Scholar author ID
+
+Fill `data/publication-sources.template.json` and rename it to `data/publication-sources.json`. Once those IDs are available, a GitHub Action can fetch updated publications and rebuild `data/publications.json`.

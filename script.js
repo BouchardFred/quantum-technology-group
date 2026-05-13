@@ -22,19 +22,20 @@ function setupNav() {
   if (toggle) toggle.addEventListener("click", () => document.body.classList.toggle("nav-open"));
 }
 
-function cleanTitle(title) {
-  return (title || "").replace(/,$/, "");
-}
+function cleanTitle(title) { return (title || "").replace(/,$/, ""); }
 
 function renderResearchCards(themes, selector, limit = themes.length) {
   const el = $(selector);
   if (!el) return;
   el.innerHTML = themes.slice(0, limit).map(t => `
-    <a class="card research-card" href="research-area.html?id=${encodeURIComponent(t.id)}">
-      <h3>${t.title}</h3>
-      <p>${t.short}</p>
-      <div class="tag-row">${t.keywords.slice(0,3).map(k => `<span class="tag">${k}</span>`).join("")}</div>
-      <span class="card-link">View area →</span>
+    <a class="card research-card has-image" href="research-area.html?id=${encodeURIComponent(t.id)}">
+      <img class="card-image" src="${t.image}" alt="${t.title}">
+      <div class="card-body">
+        <h3>${t.title}</h3>
+        <p>${t.short}</p>
+        <div class="tag-row">${t.keywords.slice(0,3).map(k => `<span class="tag">${k}</span>`).join("")}</div>
+        <span class="card-link">View area →</span>
+      </div>
     </a>
   `).join("");
 }
@@ -43,15 +44,14 @@ function renderResearchList(themes) {
   const el = $("#research-list");
   if (!el) return;
   el.innerHTML = themes.map(t => `
-    <a class="research-item research-card" href="research-area.html?id=${encodeURIComponent(t.id)}">
+    <a class="research-item research-card with-side-image" href="research-area.html?id=${encodeURIComponent(t.id)}">
+      <img class="research-thumb" src="${t.image}" alt="${t.title}">
       <div>
         <p class="eyebrow">${t.id.replaceAll("-", " ")}</p>
         <h2>${t.title}</h2>
         <p>${t.body}</p>
-        <span class="card-link">Related projects and publications →</span>
-      </div>
-      <div>
         <div class="tag-row">${t.keywords.map(k => `<span class="tag">${k}</span>`).join("")}</div>
+        <span class="card-link">Related projects and publications →</span>
       </div>
     </a>
   `).join("");
@@ -60,6 +60,11 @@ function renderResearchList(themes) {
 function matchesTopic(pub, topic) {
   const hay = `${pub.title} ${pub.authors} ${pub.venue}`.toLowerCase();
   return (topic.publicationKeywords || []).some(k => hay.includes(k.toLowerCase()));
+}
+
+function pubLine(pub) {
+  const url = pub.url ? `<a href="${pub.url}" target="_blank" rel="noopener">link</a>` : "";
+  return `<li class="publication-row"><span class="pub-authors">${pub.authors}</span>. <span class="pub-title">${cleanTitle(pub.title)}</span>. <span class="pub-venue">${pub.venue}</span>${url ? ` <span class="pub-link">(${url})</span>` : ""}</li>`;
 }
 
 function renderResearchArea(themes, publications) {
@@ -73,6 +78,7 @@ function renderResearchArea(themes, publications) {
   hero.querySelector("p:last-child").textContent = topic.short;
 
   $("#research-area-body").innerHTML = `
+    <img class="research-area-image" src="${topic.image}" alt="${topic.title}">
     <h2>Overview</h2>
     <p>${topic.body}</p>
     <h2>Projects</h2>
@@ -82,34 +88,27 @@ function renderResearchArea(themes, publications) {
 
   const related = publications.filter(p => matchesTopic(p, topic)).slice(0, 12);
   $("#research-area-publications").innerHTML = related.length
-    ? related.map(renderPublication).join("")
+    ? `<ul class="publication-plain-list">${related.map(pubLine).join("")}</ul>`
     : `<p>No related publications have been tagged yet.</p>`;
-}
-
-function personMatchesPublication(person, pub) {
-  const text = `${pub.authors} ${pub.venue}`.toLowerCase();
-  return (person.aliases || [person.name]).some(alias => text.includes(alias.toLowerCase()));
-}
-
-function shortBio(bio) {
-  if (!bio) return "Bio coming soon.";
-  return bio.length > 145 ? bio.slice(0, 142) + "…" : bio;
 }
 
 function renderPeople(people) {
   const wrap = $("#people-groups");
   if (!wrap) return;
   const search = $("#people-search");
-  const categories = ["Staff Scientists", "Postdocs", "Students"];
+  const categories = [
+    { name: "Staff Scientists", cols: 5 },
+    { name: "Postdocs", cols: 4 },
+    { name: "Students", cols: 3 },
+  ];
 
   function personCard(p) {
     return `
-      <a class="person-card" href="person.html?id=${encodeURIComponent(p.id)}">
-        <img src="${p.image}" alt="">
+      <a class="person-card person-card-compact" href="person.html?id=${encodeURIComponent(p.id)}">
+        <img src="${p.image}" alt="${p.name}">
         <div>
           <h3>${p.name}</h3>
           <p><strong>${p.role}</strong></p>
-          <p>${shortBio(p.bio)}</p>
         </div>
       </a>
     `;
@@ -117,14 +116,14 @@ function renderPeople(people) {
 
   function draw() {
     const q = (search?.value || "").toLowerCase().trim();
-    const filtered = people.filter(p => `${p.name} ${p.role} ${p.category} ${p.bio}`.toLowerCase().includes(q));
+    const filtered = people.filter(p => `${p.name} ${p.role} ${p.category}`.toLowerCase().includes(q));
     wrap.innerHTML = categories.map(cat => {
-      const members = filtered.filter(p => p.category === cat);
+      const members = filtered.filter(p => p.category === cat.name);
       if (!members.length) return "";
       return `
         <section class="people-section">
-          <h2>${cat}</h2>
-          <div class="people-grid">${members.map(personCard).join("")}</div>
+          <h2>${cat.name}</h2>
+          <div class="people-grid fixed-${cat.cols}">${members.map(personCard).join("")}</div>
         </section>
       `;
     }).join("");
@@ -136,10 +135,10 @@ function renderPeople(people) {
 function renderHomePeople(people) {
   const el = $("#home-people");
   if (!el) return;
-  el.innerHTML = people.slice(0,6).map(p => `
-    <a class="mini-person" href="person.html?id=${encodeURIComponent(p.id)}">
-      <strong>${p.name}</strong><br>
-      <span>${p.role}</span>
+  el.innerHTML = people.map(p => `
+    <a class="home-person-chip" href="person.html?id=${encodeURIComponent(p.id)}">
+      <strong>${p.name}</strong>
+      <span>${p.category === "Staff Scientists" ? (p.role.includes("Team Lead") ? "Team Lead, Staff Scientist" : "Staff Scientist") : p.category.slice(0, -1)}</span>
     </a>
   `).join("");
 }
@@ -150,24 +149,9 @@ function isPreprint(pub) {
   return y.includes("preprint") || venue.includes("arxiv");
 }
 
-function renderPublication(pub) {
-  const year = pub.year ? `<span class="tag">${pub.year}</span>` : "";
-  const link = pub.url ? `<a href="${pub.url}" target="_blank" rel="noopener">Link</a>` : "";
-  return `
-    <article class="publication">
-      <div class="tag-row">${year}</div>
-      <h3>${cleanTitle(pub.title)}</h3>
-      <p>${pub.authors}</p>
-      <p>${pub.venue}</p>
-      ${link}
-    </article>
-  `;
-}
-
 function renderPublications(publications) {
-  const legacyList = $("#publication-list");
   const sections = $("#publication-sections");
-  if (!legacyList && !sections) return;
+  if (!sections) return;
 
   const search = $("#pub-search");
   const yearSelect = $("#pub-year");
@@ -186,9 +170,6 @@ function renderPublications(publications) {
 
   function draw() {
     const pubs = filteredPubs();
-    if (legacyList) legacyList.innerHTML = pubs.map(renderPublication).join("");
-    if (!sections) return;
-
     const preprints = pubs.filter(isPreprint);
     const published = pubs.filter(p => !isPreprint(p));
     const grouped = {};
@@ -201,12 +182,12 @@ function renderPublications(publications) {
 
     let html = "";
     if (preprints.length) {
-      html += `<section class="publication-year"><h2>Preprints</h2><div class="publication-list">${preprints.map(renderPublication).join("")}</div></section>`;
+      html += `<section class="publication-year"><h2>Preprints</h2><ul class="publication-plain-list">${preprints.map(pubLine).join("")}</ul></section>`;
     }
     html += orderedYears.map(y => `
       <section class="publication-year">
         <h2>${y}</h2>
-        <div class="publication-list">${grouped[y].map(renderPublication).join("")}</div>
+        <ul class="publication-plain-list">${grouped[y].map(pubLine).join("")}</ul>
       </section>
     `).join("");
 
@@ -215,6 +196,11 @@ function renderPublications(publications) {
   search?.addEventListener("input", draw);
   yearSelect?.addEventListener("change", draw);
   draw();
+}
+
+function personMatchesPublication(person, pub) {
+  const text = `${pub.authors} ${pub.venue}`.toLowerCase();
+  return (person.aliases || [person.name]).some(alias => text.includes(alias.toLowerCase()));
 }
 
 function renderPersonPage(people, publications) {
@@ -226,7 +212,7 @@ function renderPersonPage(people, publications) {
 
   document.title = `${person.name} | Quantum Technology Group`;
   container.innerHTML = `
-    <img class="person-photo" src="${person.image}" alt="">
+    <img class="person-photo" src="${person.image}" alt="${person.name}">
     <div class="person-meta">
       <p class="eyebrow">${person.role}</p>
       <h1>${person.name}</h1>
@@ -238,18 +224,21 @@ function renderPersonPage(people, publications) {
   $("#person-pub-heading").textContent = `Publications with ${person.name}`;
   const matches = publications.filter(pub => personMatchesPublication(person, pub));
   $("#person-publications").innerHTML = matches.length
-    ? matches.map(renderPublication).join("")
+    ? `<ul class="publication-plain-list">${matches.map(pubLine).join("")}</ul>`
     : `<p>No matched publications yet. Add aliases in <code>data/people.json</code> to improve automatic matching.</p>`;
 }
 
 function renderNews(news) {
   const preview = $("#news-preview");
   const card = n => `
-    <article class="card">
-      <p class="eyebrow">${n.date}</p>
-      <h3>${n.title}</h3>
-      <p>${n.body}</p>
-      ${n.url ? `<a class="card-link" href="${n.url}" target="_blank" rel="noopener">Read story →</a>` : ""}
+    <article class="card news-card">
+      ${n.image ? `<img class="news-image" src="${n.image}" alt="${n.title}">` : ``}
+      <div class="card-body">
+        <p class="eyebrow">${n.date}</p>
+        <h3>${n.title}</h3>
+        <p>${n.body}</p>
+        ${n.url ? `<a class="card-link" href="${n.url}" target="_blank" rel="noopener">Read story →</a>` : ""}
+      </div>
     </article>
   `;
   if (preview) preview.innerHTML = news.slice(0,3).map(card).join("");
@@ -257,11 +246,14 @@ function renderNews(news) {
   const list = $("#news-list");
   if (list) {
     list.innerHTML = news.map(n => `
-      <article class="news-item">
-        <p class="eyebrow">${n.date}</p>
-        <h3>${n.title}</h3>
-        <p>${n.body}</p>
-        ${n.url ? `<a class="card-link" href="${n.url}" target="_blank" rel="noopener">Read story →</a>` : ""}
+      <article class="news-item news-item-rich">
+        ${n.image ? `<img class="news-image" src="${n.image}" alt="${n.title}">` : ``}
+        <div>
+          <p class="eyebrow">${n.date}</p>
+          <h3>${n.title}</h3>
+          <p>${n.body}</p>
+          ${n.url ? `<a class="card-link" href="${n.url}" target="_blank" rel="noopener">Read story →</a>` : ""}
+        </div>
       </article>
     `).join("");
   }

@@ -23,7 +23,8 @@
       "squeez",
       "photon-number",
       "homodyne"
-    ]
+    ],
+    "image": "assets/img/research/quantum-processing.svg"
   },
   {
     "id": "quantum-communications-networking",
@@ -49,7 +50,8 @@
       "telecom",
       "switch",
       "high-dimensional"
-    ]
+    ],
+    "image": "assets/img/research/quantum-communications-networking.svg"
   },
   {
     "id": "quantum-memory",
@@ -74,7 +76,8 @@
       "Stark",
       "molecular",
       "phonon"
-    ]
+    ],
+    "image": "assets/img/research/quantum-memory.svg"
   },
   {
     "id": "quantum-imaging",
@@ -99,7 +102,8 @@
       "ghost",
       "camera",
       "correlation"
-    ]
+    ],
+    "image": "assets/img/research/quantum-imaging.svg"
   },
   {
     "id": "quantum-sensing",
@@ -124,6 +128,7 @@
       "superresolution",
       "detector",
       "structured photons"
-    ]
+    ],
+    "image": "assets/img/research/quantum-sensing.svg"
   }
 ]

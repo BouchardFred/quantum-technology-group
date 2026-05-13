@@ -3,36 +3,42 @@
     "date": "2026-03-06",
     "title": "New Tool for Sculpting Single Photons",
     "body": "APS Physics highlights work on adjusting the frequency and bandwidth of single photons inside an optical fiber.",
-    "url": "https://physics.aps.org/articles/v19/32"
+    "url": "https://physics.aps.org/articles/v19/32",
+    "image": "assets/img/news/news-1.svg"
   },
   {
     "date": "2025-01-09",
     "title": "Frédéric Bouchard receives the 2025 SPIE Early Career Achievement Award",
     "body": "SPIE recognized work on temporal encoding and ultrafast temporal interferometric networks.",
-    "url": "https://spie.org/news/frederic-bouchard-the-2025-spie-early-career-achievement-award-%E2%80%93-industry-government-focus"
+    "url": "https://spie.org/news/frederic-bouchard-the-2025-spie-early-career-achievement-award-%E2%80%93-industry-government-focus",
+    "image": "assets/img/news/news-2.svg"
   },
   {
     "date": "2025-01-02",
     "title": "Kate Fenwick",
     "body": "Profile of Kate Fenwick and her work in ultrafast photonics for quantum computing.",
-    "url": "https://nrc.canada.ca/en/stories/kate-fenwick"
+    "url": "https://nrc.canada.ca/en/stories/kate-fenwick",
+    "image": "assets/img/news/news-3.svg"
   },
   {
     "date": "2023-07-10",
     "title": "Researchers devise new quantum photonics technique to create better holograms",
     "body": "News story on intensity interferometry for holography with quantum and classical light.",
-    "url": "https://phys.org/news/2023-07-quantum-photonics-technique-holograms.html"
+    "url": "https://phys.org/news/2023-07-quantum-photonics-technique-holograms.html",
+    "image": "assets/img/news/news-4.svg"
   },
   {
     "date": "2023",
     "title": "Light detectors illuminate the future of quantum sensing",
     "body": "Story on detector technology and its role in future quantum sensing systems.",
-    "url": "https://nrc.canada.ca/en/stories/light-detectors-illuminate-future-quantum-sensing"
+    "url": "https://nrc.canada.ca/en/stories/light-detectors-illuminate-future-quantum-sensing",
+    "image": "assets/img/news/news-5.svg"
   },
   {
     "date": "2022",
     "title": "New quantum key protocol brings ultra-secure quantum communications one step closer",
     "body": "Story on a quantum key protocol for secure quantum communications.",
-    "url": "https://nrc.canada.ca/en/stories/new-quantum-key-protocol-brings-ultra-secure-quantum-communications-one-step-closer"
+    "url": "https://nrc.canada.ca/en/stories/new-quantum-key-protocol-brings-ultra-secure-quantum-communications-one-step-closer",
+    "image": "assets/img/news/news-6.svg"
   }
 ]

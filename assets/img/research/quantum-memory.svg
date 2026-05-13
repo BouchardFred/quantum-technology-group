@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+    <defs>
+      <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+        <stop offset="0%" stop-color="#0a0d14"/>
+        <stop offset="100%" stop-color="#060709"/>
+      </linearGradient>
+      <radialGradient id="r1" cx="15%" cy="18%" r="50%">
+        <stop offset="0%" stop-color="#38d1bc" stop-opacity="0.18"/>
+        <stop offset="100%" stop-color="#38d1bc" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="r2" cx="90%" cy="12%" r="45%">
+        <stop offset="0%" stop-color="#e8c16c" stop-opacity="0.12"/>
+        <stop offset="100%" stop-color="#e8c16c" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <rect width="1200" height="700" fill="url(#g)"/>
+    <rect width="1200" height="700" fill="url(#r1)"/>
+    <rect width="1200" height="700" fill="url(#r2)"/>
+    <rect x="240" y="150" width="95" height="280" rx="18" fill="#38d1bc" opacity="0.10" stroke="#38d1bc" stroke-width="2" /><path d="M 255 390 Q 287 180, 320 390" stroke="#e8c16c" stroke-width="2.5" fill="none" opacity="0.55"/><rect x="390" y="150" width="95" height="280" rx="18" fill="#38d1bc" opacity="0.10" stroke="#38d1bc" stroke-width="2" /><path d="M 405 390 Q 437 180, 470 390" stroke="#e8c16c" stroke-width="2.5" fill="none" opacity="0.55"/><rect x="540" y="150" width="95" height="280" rx="18" fill="#38d1bc" opacity="0.10" stroke="#38d1bc" stroke-width="2" /><path d="M 555 390 Q 587 180, 620 390" stroke="#e8c16c" stroke-width="2.5" fill="none" opacity="0.55"/><rect x="690" y="150" width="95" height="280" rx="18" fill="#38d1bc" opacity="0.10" stroke="#38d1bc" stroke-width="2" /><path d="M 705 390 Q 737 180, 770 390" stroke="#e8c16c" stroke-width="2.5" fill="none" opacity="0.55"/><rect x="840" y="150" width="95" height="280" rx="18" fill="#38d1bc" opacity="0.10" stroke="#38d1bc" stroke-width="2" /><path d="M 855 390 Q 887 180, 920 390" stroke="#e8c16c" stroke-width="2.5" fill="none" opacity="0.55"/>
+    <text x="75" y="585" fill="#fffaf0" font-family="Inter,Arial,sans-serif" font-size="56" font-weight="650" text-anchor="start">Quantum Memory</text>
+    <rect x="76" y="610" width="220" height="3" fill="#e8c16c" opacity="0.75"/>
+    </svg>

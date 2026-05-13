@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<rect width="800" height="800" fill="#0b0d11"/>
+<circle cx="400" cy="400" r="330" fill="#181d24"/>
+<ellipse cx="400" cy="315" rx="205" ry="175" fill="#f0efe9"/>
+<path d="M210 270 C180 170, 260 120, 330 140 C350 95, 430 85, 480 126 C560 94, 630 152, 588 260 C630 275, 648 328, 620 370 C650 412, 626 462, 595 480 C620 575, 555 650, 464 652 C420 695, 355 700, 317 662 C235 658, 180 591, 212 488 C164 454, 150 406, 175 370 C151 333, 160 286, 210 270Z" fill="#ece8df"/>
+<path d="M218 280 C145 185, 205 120, 275 136 C312 80, 405 95, 432 138 C505 98, 580 127, 612 212 C545 168, 525 180, 490 186 C470 144, 420 124, 365 124 C308 124, 250 156, 218 280Z" fill="#faf9f4"/>
+<path d="M243 247 C190 230, 138 266, 146 328 C160 296, 187 292, 214 300 Z" fill="#faf9f4"/>
+<path d="M564 260 C626 222, 675 262, 657 330 C636 292, 606 292, 586 302 Z" fill="#faf9f4"/>
+<ellipse cx="330" cy="330" rx="22" ry="14" fill="#111418"/><ellipse cx="470" cy="330" rx="22" ry="14" fill="#111418"/>
+<circle cx="330" cy="328" r="4" fill="#ffffff"/><circle cx="470" cy="328" r="4" fill="#ffffff"/>
+<path d="M275 295 Q330 266 385 292" stroke="#2d2f35" stroke-width="8" fill="none" stroke-linecap="round"/>
+<path d="M416 292 Q470 266 525 295" stroke="#2d2f35" stroke-width="8" fill="none" stroke-linecap="round"/>
+<path d="M392 344 Q374 388 397 414" stroke="#8f7d63" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M285 455 C320 418, 370 430, 400 452 C430 430, 480 418, 515 455 C494 476, 458 494, 402 493 C348 494, 305 476, 285 455Z" fill="#f7f4ef"/>
+<path d="M290 460 C320 484, 360 500, 400 500 C440 500, 482 484, 512 460" stroke="#2d2f35" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M318 575 C354 618, 446 618, 482 575" stroke="#e8c16c" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.55"/>
+<text x="400" y="744" fill="#f4f1ea" font-family="Inter,Arial,sans-serif" font-size="46" font-weight="650" text-anchor="middle">Einstein placeholder</text>
+</svg>
