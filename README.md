@@ -149,3 +149,15 @@ This means Frédéric's profile page should again show the older, more complete 
 
 - Added an explicit `assets/img/lab/fred-purple.png` file and changed the homepage to point to that PNG.
 - Re-copied the orange Kate/Duncan lab photo and changed its display to `object-fit: contain` so heads should no longer be clipped.
+
+
+## v14 updates
+
+- Rebuilt the homepage lab-image section from scratch using optimized images with simple filenames:
+  - `assets/img/lab/lab-main.jpg`
+  - `assets/img/lab/lab-green.jpg`
+  - `assets/img/lab/lab-blue.jpg`
+  - `assets/img/lab/lab-team-wide.jpg`
+- Added `data/publications.manual.json` as the trusted baseline from the old WordPress website.
+- Updated publication automation to merge the trusted baseline with new ORCID/OpenAlex results into `data/publications.json`.
+- Current source configured: Frédéric Bouchard ORCID 0000-0003-4137-6250.
