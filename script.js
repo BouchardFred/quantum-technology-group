@@ -88,7 +88,7 @@ function renderResearchArea(themes, publications) {
 
   const related = publications.filter(p => matchesTopic(p, topic)).slice(0, 12);
   $("#research-area-publications").innerHTML = related.length
-    ? `<ul class="publication-plain-list">${related.map(pubLine).join("")}</ul>`
+    ? `<ol class="publication-plain-list numbered-publications">${related.map(pubLine).join("")}</ol>`
     : `<p>No related publications have been tagged yet.</p>`;
 }
 
@@ -182,12 +182,12 @@ function renderPublications(publications) {
 
     let html = "";
     if (preprints.length) {
-      html += `<section class="publication-year"><h2>Preprints</h2><ul class="publication-plain-list">${preprints.map(pubLine).join("")}</ul></section>`;
+      html += `<section class="publication-year"><h2>Preprints</h2><ol class="publication-plain-list numbered-publications">${preprints.map(pubLine).join("")}</ol></section>`;
     }
     html += orderedYears.map(y => `
       <section class="publication-year">
         <h2>${y}</h2>
-        <ul class="publication-plain-list">${grouped[y].map(pubLine).join("")}</ul>
+        <ol class="publication-plain-list numbered-publications">${grouped[y].map(pubLine).join("")}</ol>
       </section>
     `).join("");
 
@@ -221,10 +221,10 @@ function renderPersonPage(people, publications) {
     </div>
   `;
 
-  $("#person-pub-heading").textContent = `Publications with ${person.name}`;
+  $("#person-pub-heading").textContent = "Publications";
   const matches = publications.filter(pub => personMatchesPublication(person, pub));
   $("#person-publications").innerHTML = matches.length
-    ? `<ul class="publication-plain-list">${matches.map(pubLine).join("")}</ul>`
+    ? `<ol class="publication-plain-list numbered-publications">${matches.map(pubLine).join("")}</ol>`
     : `<p>No matched publications yet. Add aliases in <code>data/people.json</code> to improve automatic matching.</p>`;
 }
 

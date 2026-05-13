@@ -69,3 +69,14 @@ Fill `data/publication-sources.template.json` and rename it to `data/publication
 
 This version uses the newly uploaded headshots and keeps card sizes consistent on the People page.
 If any headshots need to be swapped to a different person, send the corrections and they can be updated quickly in one pass.
+
+
+## v5 corrections
+
+- Corrected the photo assignments based on user feedback.
+- Removed unused `extra-1.jpg` and `extra-2.jpg`.
+- Made all people cards the same size across staff, postdocs, and students.
+- Fixed individual profile pages to use dark cards.
+- Enlarged individual profile photos.
+- Simplified the person-page publication heading to "Publications".
+- Numbered publication lists.
