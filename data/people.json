@@ -71,7 +71,7 @@
     "category": "Staff Scientists",
     "email": "guillaume.thekkadath@nrc-cnrc.gc.ca",
     "bio": "Guillaume Thekkadath joined the group as a postdoctoral fellow in September 2021 and became a Research Officer in 2024. He completed his PhD at the University of Oxford in 2020. His expertise is in photon pair sources and photon-number-resolving detectors. In his spare time, he enjoys rock climbing and slapping his bass.",
-    "image": "assets/img/einstein-placeholder.svg",
+    "image": "assets/img/people/guillaume-thekkadath.jpg",
     "aliases": [
       "Guillaume Thekkadath",
       "Guillaume S Thekkadath",
@@ -83,7 +83,7 @@
   {
     "id": "yingwen-zhang",
     "name": "Yingwen Zhang",
-    "role": "Postdoctoral Fellow",
+    "role": "Postdoc",
     "category": "Postdocs",
     "email": "yingwen.ivan.zhang@gmail.com",
     "bio": "Yingwen Zhang is a Research Associate at National Research Council Canada.",
@@ -96,7 +96,7 @@
   {
     "id": "ramy-tannous",
     "name": "Ramy Tannous",
-    "role": "Postdoctoral Fellow",
+    "role": "Postdoc",
     "category": "Postdocs",
     "email": "ramy.tannous@nrc-cnrc.gc.ca",
     "bio": "Ramy joined the NRC in the spring of 2023 as a Research Associate and is very passionate about research and discovery. He completed his BSc (Honours) in Physics, with a specialty in nuclear physics, from the University of Saskatchewan in 2016. He then completed a MSc (2018) and PhD (2023) in Physics with a specialty in quantum information at the Institute for Quantum Computing (IQC) of the University of Waterloo. There, his research focused on developing quantum communication hardware and protocols, specifically for free-space links. He was also a technical lead on the development of the quantum sources and optical ground station for the Quantum Encryption and Science satellite mission. Generally, his research expertise is in quantum optics, quantum networks, and photon detection. He also has experience in additive manufacturing, telescope systems, and flexure design for opto-mechanical systems. Ramy has many interests beyond the lab, including ultimate, cycling, hiking, cooking, and a good Sci-fi series. He also enjoys science outreach and was a significant contributor to the IQC outreach efforts, where he conducted many class visits, public lectures, and science demonstrations.",
@@ -109,7 +109,7 @@
   {
     "id": "kate-fenwick",
     "name": "Kate Fenwick",
-    "role": "Postdoctoral Fellow",
+    "role": "Postdoc",
     "category": "Postdocs",
     "email": "kfenw032@uottawa.ca",
     "bio": "Kate is a passionate student working towards a PhD in the Quantum Technology group. She completed her BSc (Honours) in Physics at Queen's University in 2017, where she also earned a Business Certificate. Kate then went on to complete her Master's degree (in Physics) at Queen's University, investigating the ultrafast optical properties of quantum materials in James Fraser's group. During her Master's, Kate had the opportunity to complete an 8-month co-op with the Quantum Technology group at NRC. Inspired by the group's work, she decided to stay on and pursue a PhD with them. Her research revolves around developing and implementing an ultrafast optical shutter that can manipulate, gate, and re-route optical signals on ultrafast timescales. She has used this device for various applications, including carving pulses from a continuous wave laser, single photon metrology, time-stretch spectroscopy, and most recently to detect the output from a quantum walk with ultrafast time-bin encoding. Outside of her studies, Kate enjoys volunteering. She runs science activities with classrooms in Ottawa through her volunteer work with Let's Talk Science, and serves as the president of the uOttawa Optica-SPIE Student Chapter. Previously, she was the Regional Executive Officer of Robogals North America, a non-profit organization that aims to engage young girls in STEM pursuits. Over the past three years, she has also organized the Canadian Photonics Online Meetup (canPOM) each fall. Besides her work and volunteering activities, Kate enjoys outdoor activities such as cross-country skiing in Gatineau Park, rock climbing, and trying out new recipes in the kitchen.",
@@ -125,7 +125,7 @@
   {
     "id": "alicia-sit",
     "name": "Alicia Sit",
-    "role": "Postdoctoral Fellow",
+    "role": "Postdoc",
     "category": "Postdocs",
     "email": "Alicia.Sit@nrc-cnrc.gc.ca",
     "bio": "Alicia Sit joined as a Research Associate at NRC in September 2023. She received her BSc (Honours) with a specialization in Physics-Mathematics in 2017, followed by her MSc (2019) and PhD (2023), all from the University of Ottawa. During her studies, her research focused on demonstrating high-dimensional quantum cryptographic protocols with structured light through various quantum channels - including fiber, free-space, and underwater - both inside and outside the laboratory environment. Beyond research, Alicia enjoys all things artsy and crafty, such as painting and sewing. She also loves to garden and dabble in baking.",
@@ -138,7 +138,7 @@
   {
     "id": "noah-lupu-gladstein",
     "name": "Noah Lupu-Gladstein",
-    "role": "Postdoctoral Fellow",
+    "role": "Postdoc",
     "category": "Postdocs",
     "email": "nlupugla@physics.utoronto.ca",
     "bio": "Noah joined NRC through the University of Ottawa in Winter 2024. He graduated from Macalester College in 2016 with an honors in physics, a major in math, and a minor in classics. He (has almost!!) earned his PhD in physics from the University of Toronto, where he studied quantum optics under Professor Aephraim Steinberg. Noah is interested in using table top experiments to shed light (pun intended) on the deepest mysteries in quantum mechanics. His has focused on measurement disturbance: both understanding it foundationally and exploiting it for advantages in quantum metrology. Outside of the lab, Noah can be found swing dancing, round-house kicking a sparring partner, dungeon mastering, making video games, and contributing to open source projects.",
@@ -151,7 +151,7 @@
   {
     "id": "nathan-roberts",
     "name": "Nathan Roberts",
-    "role": "Postdoctoral Fellow",
+    "role": "Postdoc",
     "category": "Postdocs",
     "email": "nroberts@uottawa.ca",
     "bio": "Nathan joined the group as a postdoctoral fellow in the summer of 2024. He completed both his MPhys and PhD at the University of Bath, where his research focused on combining topological photonics and fiber optics. Specifically, he focused on designing, simulating, and fabricating specialty optical fibers with enhanced robustness to fabrication-induced disorder. Over time, Nathan’s research interests have evolved from protecting delicate states of light in fiber, to reliably and robustly generating them.",
@@ -164,7 +164,7 @@
   {
     "id": "kyle-jordan",
     "name": "Kyle Jordan",
-    "role": "Postdoctoral Fellow",
+    "role": "Postdoc",
     "category": "Postdocs",
     "email": "",
     "bio": "Bio coming soon.",
@@ -177,7 +177,7 @@
   {
     "id": "pierre-luc-theriault",
     "name": "Pierre-Luc Thériault",
-    "role": "Postdoctoral Fellow",
+    "role": "Postdoc",
     "category": "Postdocs",
     "email": "",
     "bio": "Bio coming soon.",
@@ -205,7 +205,7 @@
   {
     "id": "jonathan-baker",
     "name": "Jonathan Baker",
-    "role": "Student",
+    "role": "Graduate Student",
     "category": "Students",
     "email": "jbake093@uottawa.ca",
     "bio": "Jonathan joined the group in the summer of 2023 as a summer undergraduate researcher. He’s currently pursuing a dual degree in physics (Honours) and electrical engineering at the University of Ottawa. During his undergraduate studies, he developed a strong interest in quantum mechanics and photonics. As part of the group, Jonathan explored quantum walks through simulations and data analysis and conducted research for his honours project on the limits of quantum phase uncertainties using photon-number resolving detectors. In September 2025, he will continue his studies with the group as he pursues a master's degree in physics at the University of Ottawa. In his free time, Jonathan enjoys cooking, spending time in nature, gardening, and helping his parents on their hobby farm.",
@@ -231,7 +231,7 @@
   {
     "id": "jaime-glerum",
     "name": "Jaime Glerum",
-    "role": "Student",
+    "role": "Undergraduate Student",
     "category": "Students",
     "email": "",
     "bio": "Bio coming soon.",
@@ -244,7 +244,7 @@
   {
     "id": "daniel-deiros-hernandez",
     "name": "Daniel Deiros Hernandez",
-    "role": "Student",
+    "role": "Undergraduate Student",
     "category": "Students",
     "email": "",
     "bio": "Bio coming soon.",
@@ -259,7 +259,7 @@
   {
     "id": "krystian-smialkowski",
     "name": "Krystian Smialkowski",
-    "role": "Student",
+    "role": "Undergraduate Student",
     "category": "Students",
     "email": "",
     "bio": "Bio coming soon.",
