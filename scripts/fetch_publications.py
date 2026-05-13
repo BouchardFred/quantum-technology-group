@@ -5,7 +5,7 @@ Fetch publication metadata for Quantum Technology Group author pages.
 Current setup:
 - Uses OpenAlex as the metadata source.
 - Accepts ORCID iDs and/or OpenAlex author IDs in data/publication-sources.json.
-- Writes data/publications.json directly so the website updates after the workflow runs.
+- Writes data/publications.generated.json so new automated results can be reviewed before replacing the live publication list.
 
 For review-only mode, change OUT to data/publications.generated.json.
 """
@@ -21,7 +21,7 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = ROOT / "data" / "publication-sources.json"
-OUT = ROOT / "data" / "publications.json"
+OUT = ROOT / "data" / "publications.generated.json"
 
 def get_json(url: str) -> dict[str, Any]:
     req = urllib.request.Request(

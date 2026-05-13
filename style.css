@@ -1717,3 +1717,57 @@ body[data-page="person"] .person-meta a {
 .lab-shot {
   min-height: 220px;
 }
+
+
+/* v11: make homepage lab-gallery left image robust */
+.lab-shot.hero img {
+  object-fit: cover;
+  object-position: center center;
+  min-height: 100%;
+}
+
+.lab-shot.hero {
+  background:
+    radial-gradient(circle at 45% 35%, rgba(56,209,188,.16), transparent 35%),
+    #05070a;
+}
+
+
+/* v13: hard fix for homepage lab images */
+.lab-gallery-grid {
+  grid-auto-rows: 260px;
+}
+
+.lab-shot.hero {
+  min-height: 536px;
+}
+
+.lab-shot.hero img[src$="fred-purple.png"] {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center center;
+  opacity: 1;
+  visibility: visible;
+}
+
+.lab-shot.wide img[src$="kate-and-duncan-orange.jpg"] {
+  object-fit: contain;
+  object-position: center center;
+  background: #05070a;
+  padding: 0;
+}
+
+/* Keep the bottom orange panel elegant even when using contain */
+.lab-shot.wide {
+  background:
+    radial-gradient(circle at 40% 35%, rgba(232,193,108,.10), transparent 36%),
+    #05070a;
+}
+
+@media (max-width: 980px) {
+  .lab-shot.hero {
+    min-height: 260px;
+  }
+}

@@ -129,3 +129,23 @@ Recommended next step: find OpenAlex author IDs for Ben, Duncan, Phil, Frédéri
 - Added Frédéric Bouchard's ORCID to `data/publication-sources.json`.
 - Updated the publication fetch script so it can use ORCID to find the OpenAlex author profile, then update `data/publications.json`.
 - The GitHub Action `Fetch publications` can now be run manually from the Actions tab.
+
+
+## v11 update
+
+Changed the large left image in the homepage "In the lab" section to `assets/img/hero-lab.jpg`, which is already used successfully on the homepage hero. This should prevent the left image from appearing blank.
+
+
+## v12 publication baseline
+
+The live publication list has been reset to the original list recovered from the old WordPress website.
+
+The automated ORCID/OpenAlex fetch is now review-only: it writes to `data/publications.generated.json` rather than overwriting the live `data/publications.json`.
+
+This means Frédéric's profile page should again show the older, more complete baseline publication list, while still allowing us to test automated updates separately.
+
+
+## v13 homepage lab image fix
+
+- Added an explicit `assets/img/lab/fred-purple.png` file and changed the homepage to point to that PNG.
+- Re-copied the orange Kate/Duncan lab photo and changed its display to `object-fit: contain` so heads should no longer be clipped.
