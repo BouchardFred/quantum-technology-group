@@ -1,0 +1,134 @@
+[
+  {
+    "id": "quantum-processing",
+    "title": "Quantum Processing",
+    "short": "Photonic approaches to quantum information processing based on ultrafast time-bin encoding, programmable interferometry, nonclassical light, and measurement.",
+    "body": "We develop photonic tools for quantum processing in regimes where light can be prepared, transformed, and measured with high temporal resolution. This includes ultrafast time-bin encoding, programmable temporal interferometry, photon-number-resolved measurements, homodyne-style readout, and nonlinear optical operations.",
+    "keywords": [
+      "ultrafast time bins",
+      "photonic circuits",
+      "nonclassical light",
+      "measurement"
+    ],
+    "projects": [
+      "Programmable temporal interferometers",
+      "Ultrafast quantum circuits",
+      "Photon-number and quadrature-resolved readout"
+    ],
+    "publicationKeywords": [
+      "time-bin",
+      "qudit",
+      "quantum circuits",
+      "interferometry",
+      "squeez",
+      "photon-number",
+      "homodyne"
+    ],
+    "image": "assets/img/research/quantum-processing.svg"
+  },
+  {
+    "id": "quantum-communications-networking",
+    "title": "Quantum Communications and Networking",
+    "short": "Protocols and devices for quantum communication, including high-dimensional encoding, quantum key distribution, switching, and network-compatible photonics.",
+    "body": "We study quantum communication and networking using optical systems that are compatible with deployed photonic infrastructure. Topics include quantum key distribution, high-dimensional encodings, telecom-band photon manipulation, optical switching, and interfaces for future quantum networks.",
+    "keywords": [
+      "quantum communication",
+      "QKD",
+      "telecom photonics",
+      "quantum networks"
+    ],
+    "projects": [
+      "High-dimensional quantum communication",
+      "Telecom-band quantum interfaces",
+      "Ultrafast optical switching"
+    ],
+    "publicationKeywords": [
+      "quantum communication",
+      "quantum key",
+      "QKD",
+      "network",
+      "telecom",
+      "switch",
+      "high-dimensional"
+    ],
+    "image": "assets/img/research/quantum-communications-networking.svg"
+  },
+  {
+    "id": "quantum-memory",
+    "title": "Quantum Memory",
+    "short": "Light–matter systems and ultrafast control methods for storing, retrieving, and manipulating optical quantum states.",
+    "body": "We investigate approaches for coupling photonic quantum states to material systems. This includes ultrafast light–matter interactions, Raman processes, coherent optical control, and memory-compatible sources and measurements.",
+    "keywords": [
+      "light–matter interaction",
+      "Raman processes",
+      "coherent control",
+      "storage"
+    ],
+    "projects": [
+      "Raman-based light–matter interfaces",
+      "Ultrafast control of material systems",
+      "Memory-compatible photonic states"
+    ],
+    "publicationKeywords": [
+      "memory",
+      "Raman",
+      "coherent",
+      "Stark",
+      "molecular",
+      "phonon"
+    ],
+    "image": "assets/img/research/quantum-memory.svg"
+  },
+  {
+    "id": "quantum-imaging",
+    "title": "Quantum Imaging",
+    "short": "Imaging methods that use correlations, single-photon detection, and quantum-inspired measurement to extract spatial or temporal information.",
+    "body": "We develop imaging techniques that exploit optical correlations and single-photon detection. Research directions include quantum and classical intensity interferometry, ghost imaging, holography, and imaging approaches that connect spatial, temporal, and spectral degrees of freedom.",
+    "keywords": [
+      "holography",
+      "ghost imaging",
+      "intensity correlations",
+      "single-photon cameras"
+    ],
+    "projects": [
+      "Intensity-interferometric holography",
+      "Quantum ghost imaging",
+      "Correlation-based image reconstruction"
+    ],
+    "publicationKeywords": [
+      "holography",
+      "imaging",
+      "image",
+      "ghost",
+      "camera",
+      "correlation"
+    ],
+    "image": "assets/img/research/quantum-imaging.svg"
+  },
+  {
+    "id": "quantum-sensing",
+    "title": "Quantum Sensing",
+    "short": "Quantum and photonic measurement strategies for sensing, metrology, beam tracking, and weak-signal detection.",
+    "body": "We explore how quantum states of light, structured modes, and high-efficiency detection can improve measurement. This includes quantum-enhanced beam tracking, metrology with structured photons, low-light detection, and sensing protocols based on correlations and nonclassical statistics.",
+    "keywords": [
+      "quantum metrology",
+      "beam tracking",
+      "structured photons",
+      "low-light detection"
+    ],
+    "projects": [
+      "Quantum-enhanced beam tracking",
+      "Structured-light metrology",
+      "Low-light sensing with photon-number resolution"
+    ],
+    "publicationKeywords": [
+      "sensing",
+      "metrology",
+      "beam tracking",
+      "superresolution",
+      "detector",
+      "structured photons"
+    ],
+    "image": "assets/img/research/quantum-sensing.svg"
+  }
+]

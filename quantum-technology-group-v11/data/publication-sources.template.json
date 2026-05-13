@@ -1,0 +1,32 @@
+{
+  "ben-sussman": {
+    "name": "Ben Sussman",
+    "orcid": "",
+    "openalex_author_id": "",
+    "semantic_scholar_author_id": ""
+  },
+  "duncan-england": {
+    "name": "Duncan England",
+    "orcid": "",
+    "openalex_author_id": "",
+    "semantic_scholar_author_id": ""
+  },
+  "phil-bustard": {
+    "name": "Phil Bustard",
+    "orcid": "",
+    "openalex_author_id": "",
+    "semantic_scholar_author_id": ""
+  },
+  "frederic-bouchard": {
+    "name": "Frédéric Bouchard",
+    "orcid": "",
+    "openalex_author_id": "",
+    "semantic_scholar_author_id": ""
+  },
+  "guillaume-thekkadath": {
+    "name": "Guillaume Thekkadath",
+    "orcid": "",
+    "openalex_author_id": "",
+    "semantic_scholar_author_id": ""
+  }
+}
