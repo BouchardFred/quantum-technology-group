@@ -1,4 +1,4 @@
-# Quantum Technology Group website prototype
+# Ultrafast Quantum Photonics Group website prototype
 
 This is a plain static website prototype for GitHub Pages.
 
@@ -161,3 +161,10 @@ This means Frédéric's profile page should again show the older, more complete 
 - Added `data/publications.manual.json` as the trusted baseline from the old WordPress website.
 - Updated publication automation to merge the trusted baseline with new ORCID/OpenAlex results into `data/publications.json`.
 - Current source configured: Frédéric Bouchard ORCID 0000-0003-4137-6250.
+
+
+## v15 updates
+
+- Renamed the site to Ultrafast Quantum Photonics Group.
+- Changed the brand mark from QT to UQP.
+- Reduced the size/visual dominance of the large purple image in the homepage lab section.

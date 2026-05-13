@@ -1862,3 +1862,42 @@ body[data-page="person"] .person-meta a {
     min-height: 340px;
   }
 }
+
+
+/* v15: smaller homepage lab feature image and UQP branding */
+.brand-mark {
+  font-size: 12px;
+  letter-spacing: .04em;
+}
+
+.home-lab-layout {
+  grid-template-columns: .82fr 1.18fr;
+  align-items: start;
+}
+
+.home-lab-main {
+  min-height: 410px;
+  max-height: 460px;
+}
+
+.home-lab-main img {
+  object-fit: cover;
+  object-position: center center;
+}
+
+.home-lab-side {
+  grid-auto-rows: 205px;
+}
+
+@media (max-width: 980px) {
+  .home-lab-layout {
+    grid-template-columns: 1fr;
+  }
+  .home-lab-main {
+    min-height: 330px;
+    max-height: none;
+  }
+  .home-lab-side {
+    grid-auto-rows: 220px;
+  }
+}
