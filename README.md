@@ -88,3 +88,9 @@ If any headshots need to be swapped to a different person, send the corrections 
 - Added real images for the supplied news stories.
 - Restored visible role/title text on People cards.
 - Updated roles to: staff scientist, postdoc, graduate student, undergraduate student as requested.
+
+
+## v7 group-life photos
+
+Added a subtle "Outside the lab" mosaic to the People page, plus a small homepage strip linking to it.
+Images are stored in `assets/img/group/`.
