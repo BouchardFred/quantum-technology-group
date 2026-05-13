@@ -1,62 +1,129 @@
 [
   {
-    "id": "quantum-information-processing",
-    "title": "Quantum information processing",
-    "short": "Programmable photonic circuits and ultrafast time-bin platforms for quantum information.",
-    "body": "We explore photonic platforms for manipulating quantum information at high speed. A central direction is time-bin encoding, where ultrafast optical pulses and stable interferometric networks provide a compact, reconfigurable route to quantum circuits.",
+    "id": "quantum-processing",
+    "title": "Quantum Processing",
+    "short": "Photonic approaches to quantum information processing based on ultrafast time-bin encoding, programmable interferometry, nonclassical light, and measurement.",
+    "body": "We develop photonic tools for quantum processing in regimes where light can be prepared, transformed, and measured with high temporal resolution. This includes ultrafast time-bin encoding, programmable temporal interferometry, photon-number-resolved measurements, homodyne-style readout, and nonlinear optical operations.",
     "keywords": [
-      "time-bin encoding",
-      "programmable circuits",
-      "quantum walks",
-      "photonic quantum computing"
+      "ultrafast time bins",
+      "photonic circuits",
+      "nonclassical light",
+      "measurement"
+    ],
+    "projects": [
+      "Programmable temporal interferometers",
+      "Ultrafast quantum circuits",
+      "Photon-number and quadrature-resolved readout"
+    ],
+    "publicationKeywords": [
+      "time-bin",
+      "qudit",
+      "quantum circuits",
+      "interferometry",
+      "squeez",
+      "photon-number",
+      "homodyne"
     ]
   },
   {
-    "id": "quantum-communications",
-    "title": "Quantum communications",
-    "short": "Single-photon communication links, robust encodings, and deployment-relevant quantum networking.",
-    "body": "Quantum communication uses photons to encode, distribute, and measure quantum states over channels such as fibre, free space, and water. The group studies both the underlying physics and practical limits of quantum communication systems.",
+    "id": "quantum-communications-networking",
+    "title": "Quantum Communications and Networking",
+    "short": "Protocols and devices for quantum communication, including high-dimensional encoding, quantum key distribution, switching, and network-compatible photonics.",
+    "body": "We study quantum communication and networking using optical systems that are compatible with deployed photonic infrastructure. Topics include quantum key distribution, high-dimensional encodings, telecom-band photon manipulation, optical switching, and interfaces for future quantum networks.",
     "keywords": [
-      "quantum key distribution",
-      "single photons",
-      "channels",
-      "networks"
-    ]
-  },
-  {
-    "id": "quantum-frequency-conversion",
-    "title": "Quantum frequency conversion",
-    "short": "Nonlinear optical tools for translating quantum states between wavelengths and bandwidths.",
-    "body": "Different quantum technologies operate best at different wavelengths and bandwidths. We develop fibre-based and nonlinear-optical techniques for connecting these systems while preserving quantum coherence.",
-    "keywords": [
-      "nonlinear optics",
-      "frequency translation",
-      "telecom photons",
-      "interfaces"
-    ]
-  },
-  {
-    "id": "quantum-imaging",
-    "title": "Quantum imaging",
-    "short": "Imaging and microscopy with correlated and entangled photons.",
-    "body": "We use quantum-correlated light to explore imaging, microscopy, remote sensing, and phase retrieval. These approaches can provide new measurement capabilities in noisy, turbulent, or photon-starved conditions.",
-    "keywords": [
-      "ghost imaging",
-      "quantum microscopy",
-      "correlated photons",
-      "remote sensing"
+      "quantum communication",
+      "QKD",
+      "telecom photonics",
+      "quantum networks"
+    ],
+    "projects": [
+      "High-dimensional quantum communication",
+      "Telecom-band quantum interfaces",
+      "Ultrafast optical switching"
+    ],
+    "publicationKeywords": [
+      "quantum communication",
+      "quantum key",
+      "QKD",
+      "network",
+      "telecom",
+      "switch",
+      "high-dimensional"
     ]
   },
   {
     "id": "quantum-memory",
-    "title": "Quantum memory",
-    "short": "Storage and control of photonic quantum states in fibre-compatible systems.",
-    "body": "Quantum memories are essential for synchronizing probabilistic photonic processes and building scalable quantum networks. The group explores fibre-cavity and frequency-control approaches for storing quantum-level optical states.",
+    "title": "Quantum Memory",
+    "short": "Light–matter systems and ultrafast control methods for storing, retrieving, and manipulating optical quantum states.",
+    "body": "We investigate approaches for coupling photonic quantum states to material systems. This includes ultrafast light–matter interactions, Raman processes, coherent optical control, and memory-compatible sources and measurements.",
     "keywords": [
-      "quantum storage",
-      "fibre cavity",
-      "switching",
-      "synchronization"
+      "light–matter interaction",
+      "Raman processes",
+      "coherent control",
+      "storage"
+    ],
+    "projects": [
+      "Raman-based light–matter interfaces",
+      "Ultrafast control of material systems",
+      "Memory-compatible photonic states"
+    ],
+    "publicationKeywords": [
+      "memory",
+      "Raman",
+      "coherent",
+      "Stark",
+      "molecular",
+      "phonon"
+    ]
+  },
+  {
+    "id": "quantum-imaging",
+    "title": "Quantum Imaging",
+    "short": "Imaging methods that use correlations, single-photon detection, and quantum-inspired measurement to extract spatial or temporal information.",
+    "body": "We develop imaging techniques that exploit optical correlations and single-photon detection. Research directions include quantum and classical intensity interferometry, ghost imaging, holography, and imaging approaches that connect spatial, temporal, and spectral degrees of freedom.",
+    "keywords": [
+      "holography",
+      "ghost imaging",
+      "intensity correlations",
+      "single-photon cameras"
+    ],
+    "projects": [
+      "Intensity-interferometric holography",
+      "Quantum ghost imaging",
+      "Correlation-based image reconstruction"
+    ],
+    "publicationKeywords": [
+      "holography",
+      "imaging",
+      "image",
+      "ghost",
+      "camera",
+      "correlation"
+    ]
+  },
+  {
+    "id": "quantum-sensing",
+    "title": "Quantum Sensing",
+    "short": "Quantum and photonic measurement strategies for sensing, metrology, beam tracking, and weak-signal detection.",
+    "body": "We explore how quantum states of light, structured modes, and high-efficiency detection can improve measurement. This includes quantum-enhanced beam tracking, metrology with structured photons, low-light detection, and sensing protocols based on correlations and nonclassical statistics.",
+    "keywords": [
+      "quantum metrology",
+      "beam tracking",
+      "structured photons",
+      "low-light detection"
+    ],
+    "projects": [
+      "Quantum-enhanced beam tracking",
+      "Structured-light metrology",
+      "Low-light sensing with photon-number resolution"
+    ],
+    "publicationKeywords": [
+      "sensing",
+      "metrology",
+      "beam tracking",
+      "superresolution",
+      "detector",
+      "structured photons"
     ]
   }
 ]

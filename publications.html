@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Publications | Quantum Technology Group</title>
-  <meta name="description" content="Quantum Technology Group: ultrafast photonics, nonlinear optics, quantum communication, quantum information processing, and quantum imaging.">
+  <meta name="description" content="Quantum Technology Group.">
   <link rel="stylesheet" href="style.css">
   <script defer src="script.js"></script>
 </head>
@@ -28,15 +28,15 @@
   <main>
     <section class="page-hero">
       <p class="eyebrow">Publications</p>
-      <h1>Selected and recent publications</h1>
-      <p>This prototype renders publications from <code>data/publications.json</code>. Later we can replace this file with a BibTeX/Zotero export workflow.</p>
+      <h1>Publications</h1>
+      <p>Preprints and publications from current group members, grouped by publication status and year.</p>
     </section>
     <section class="section">
       <div class="toolbar publications-toolbar">
         <input id="pub-search" type="search" placeholder="Search titles, authors, venues">
         <select id="pub-year"><option value="">All years</option></select>
       </div>
-      <div class="publication-list" id="publication-list"></div>
+      <div id="publication-sections"></div>
     </section>
   </main>
   <footer class="site-footer">
@@ -45,8 +45,8 @@
       <p>Quantum photonics · Ultrafast optics · Quantum information</p>
     </div>
     <div class="footer-links">
+      <a href="research.html">Research</a>
       <a href="people.html">People</a>
-      <a href="positions.html">Join us</a>
       <a href="publications.html">Publications</a>
     </div>
   </footer>

@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>News | Quantum Technology Group</title>
+  <title>Research Area | Quantum Technology Group</title>
   <meta name="description" content="Quantum Technology Group.">
   <link rel="stylesheet" href="style.css">
   <script defer src="script.js"></script>
 </head>
-<body data-page="news">
+<body data-page="research">
   <header class="site-header">
     <a class="brand" href="index.html" aria-label="Quantum Technology Group home">
       <span class="brand-mark">QT</span>
@@ -26,13 +26,24 @@
   </header>
 
   <main>
-    <section class="page-hero">
-      <p class="eyebrow">News</p>
-      <h1>News</h1>
-      <p>Selected stories and external coverage of work connected to the group.</p>
+    <section class="page-hero compact-page-hero" id="research-area-hero">
+      <p class="eyebrow">Research</p>
+      <h1>Research area</h1>
+      <p></p>
+    </section>
+    <section class="section research-area-layout">
+      <article class="content-card" id="research-area-body"></article>
+      <aside class="content-card accent-card-soft">
+        <h2>Keywords</h2>
+        <div class="tag-row" id="research-area-keywords"></div>
+      </aside>
     </section>
     <section class="section">
-      <div class="news-list" id="news-list"></div>
+      <div class="section-heading">
+        <p class="eyebrow">Related work</p>
+        <h2>Related publications</h2>
+      </div>
+      <div class="publication-list" id="research-area-publications"></div>
     </section>
   </main>
   <footer class="site-footer">

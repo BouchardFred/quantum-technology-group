@@ -44,3 +44,12 @@ For example, to add a person:
 For publication automation later:
 - replace `data/publications.json` with data generated from a Zotero or BibTeX export
 - the publication page and person pages will update automatically
+
+
+## Publication automation note
+
+This version still renders publications from `data/publications.json`. A later step can add a scheduled GitHub Action that queries reliable metadata sources such as ORCID, Crossref, arXiv, Semantic Scholar, or OpenAlex for the permanent staff scientists. Google Scholar is not ideal as an automated source because it does not provide a stable official publications API.
+
+## People photos
+
+Replace `assets/img/placeholder-person.svg` by adding headshots to `assets/img/people/` and updating the `image` field for each person in `data/people.json`.

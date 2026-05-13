@@ -639,3 +639,230 @@ body[data-page="home"] .site-footer {
     font-size: clamp(42px, 15vw, 72px);
   }
 }
+
+
+/* Site-wide darker visual system */
+body {
+  background:
+    radial-gradient(circle at 12% 0%, rgba(232,193,108,.12), transparent 30%),
+    radial-gradient(circle at 88% 8%, rgba(56,209,188,.10), transparent 28%),
+    #05070a;
+  color: #f4f1ea;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: .24;
+  background:
+    linear-gradient(120deg, transparent 0 18%, rgba(232,193,108,.12) 18.2%, transparent 18.8% 100%),
+    linear-gradient(137deg, transparent 0 72%, rgba(56,209,188,.10) 72.2%, transparent 72.8% 100%);
+}
+
+.site-header {
+  background: rgba(5, 7, 10, .76);
+  border-bottom: 1px solid rgba(255,255,255,.10);
+  backdrop-filter: blur(18px);
+}
+
+.brand,
+.site-nav a {
+  color: rgba(255,255,255,.88);
+}
+
+.site-nav a.active,
+.site-nav a:hover {
+  color: #e8c16c !important;
+}
+
+.brand-mark {
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.20);
+  color: #f4f1ea;
+}
+
+.page-hero {
+  padding-top: 96px;
+}
+
+.page-hero h1,
+.section h2,
+.content-card h2,
+.research-item h2,
+.people-section h2,
+.publication-year h2 {
+  color: #fffaf0;
+}
+
+.page-hero p,
+.section p,
+.hero-text {
+  color: rgba(244,241,234,.68);
+}
+
+.card,
+.person-card,
+.content-card,
+.publication,
+.news-item,
+.research-item,
+.mini-person {
+  background: rgba(255,255,255,.045);
+  border: 1px solid rgba(255,255,255,.11);
+  color: #f4f1ea;
+  box-shadow: none;
+}
+
+.card p,
+.person-card p,
+.content-card p,
+.publication p,
+.news-item p,
+.research-item p {
+  color: rgba(244,241,234,.66);
+}
+
+.research-card,
+.person-card,
+.mini-person {
+  text-decoration: none;
+}
+
+.research-card {
+  transition: transform .16s ease, border-color .16s ease, background .16s ease;
+}
+
+.research-card:hover,
+.person-card:hover,
+.mini-person:hover {
+  transform: translateY(-3px);
+  border-color: rgba(232,193,108,.42);
+  background: rgba(255,255,255,.065);
+}
+
+.card-link {
+  display: inline-block;
+  margin-top: 14px;
+  color: #e8c16c;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.tag {
+  background: rgba(232,193,108,.12);
+  color: #e8c16c;
+}
+
+.eyebrow {
+  color: #e8c16c !important;
+}
+
+input, select {
+  background: rgba(255,255,255,.06);
+  border-color: rgba(255,255,255,.14);
+  color: #f4f1ea;
+}
+
+input::placeholder {
+  color: rgba(244,241,234,.50);
+}
+
+.accent-card,
+.accent-card-soft {
+  background:
+    linear-gradient(180deg, rgba(232,193,108,.10), rgba(255,255,255,.045));
+  border-color: rgba(232,193,108,.25);
+}
+
+.people-section {
+  margin: 0 0 52px;
+}
+
+.people-section h2 {
+  margin: 0 0 18px;
+  font-size: clamp(28px, 3vw, 42px);
+  letter-spacing: -.045em;
+}
+
+.person-card h3 {
+  color: #fffaf0;
+}
+
+.person-meta h1 {
+  color: #fffaf0;
+  font-size: clamp(40px, 5vw, 72px);
+  line-height: .95;
+  letter-spacing: -.06em;
+  margin: 0 0 18px;
+}
+
+.person-meta a,
+.publication a,
+.news-item a,
+.content-card a {
+  color: #e8c16c;
+}
+
+.publication-year {
+  margin-bottom: 48px;
+}
+
+.publication-year > h2 {
+  font-size: clamp(30px, 4vw, 54px);
+  letter-spacing: -.055em;
+  margin: 0 0 18px;
+}
+
+.research-area-layout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 22px;
+  align-items: start;
+}
+
+.clean-list {
+  color: rgba(244,241,234,.70);
+  padding-left: 20px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.contact-grid a {
+  display: grid;
+  gap: 4px;
+  padding: 16px;
+  border-radius: 18px;
+  background: rgba(255,255,255,.045);
+  border: 1px solid rgba(255,255,255,.11);
+  text-decoration: none;
+  color: #f4f1ea;
+}
+
+.contact-grid span {
+  color: rgba(244,241,234,.64);
+  font-size: 14px;
+}
+
+.site-footer {
+  background: #030405;
+  border-top: 1px solid rgba(255,255,255,.10);
+}
+
+@media (max-width: 850px) {
+  .site-nav {
+    background: rgba(5,7,10,.96);
+    border-color: rgba(255,255,255,.14);
+  }
+
+  .research-area-layout {
+    grid-template-columns: 1fr;
+  }
+}
